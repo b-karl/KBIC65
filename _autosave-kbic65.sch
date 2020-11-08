@@ -1,0 +1,75 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U?
+U 1 1 5FA7FDE3
+P 3350 3800
+F 0 "U?" H 3350 4837 60  0000 C CNN
+F 1 "ProMicro" H 3350 4731 60  0000 C CNN
+F 2 "" H 3450 2750 60  0000 C CNN
+F 3 "" H 3450 2750 60  0000 C CNN
+	1    3350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FA811CF
+P 6000 3250
+F 0 "MX?" H 6033 3473 60  0000 C CNN
+F 1 "MX-NoLED" H 6033 3399 20  0000 C CNN
+F 2 "" H 5375 3225 60  0001 C CNN
+F 3 "" H 5375 3225 60  0001 C CNN
+	1    6000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FA81752
+P 5850 3500
+F 0 "D?" H 5850 3600 50  0000 R CNN
+F 1 "SOD_123" H 6050 3600 50  0000 C CNN
+F 2 "" V 5850 3500 50  0001 C CNN
+F 3 "~" V 5850 3500 50  0001 C CNN
+	1    5850 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3400 5950 3400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FA8BDEE
+P 6600 3250
+F 0 "MX?" H 6633 3473 60  0000 C CNN
+F 1 "MX-NoLED" H 6633 3399 20  0000 C CNN
+F 2 "" H 5975 3225 60  0001 C CNN
+F 3 "" H 5975 3225 60  0001 C CNN
+	1    6600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5FA8BDF4
+P 6450 3500
+F 0 "D?" H 6450 3600 50  0000 R CNN
+F 1 "SOD_123" H 6650 3600 50  0000 C CNN
+F 2 "" V 6450 3500 50  0001 C CNN
+F 3 "~" V 6450 3500 50  0001 C CNN
+	1    6450 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 3400 6550 3400
+$EndSCHEMATC
