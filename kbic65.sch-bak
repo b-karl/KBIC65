@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L promicro:ProMicro U?
-U 1 1 5FA7FDE3
-P 3350 3800
-F 0 "U?" H 3350 4837 60  0000 C CNN
-F 1 "ProMicro" H 3350 4731 60  0000 C CNN
-F 2 "" H 3450 2750 60  0000 C CNN
-F 3 "" H 3450 2750 60  0000 C CNN
-	1    3350 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D?
 U 1 1 5FA81752
 P 15450 750
@@ -963,8 +952,6 @@ Connection ~ 18500 450
 Connection ~ 17800 450 
 Connection ~ 17100 450 
 Connection ~ 16400 450 
-Entry Wire Line
-	4000 3550 4100 3650
 Entry Wire Line
 	14150 250  14250 350 
 Entry Wire Line
@@ -2139,4 +2126,98 @@ Wire Wire Line
 	19900 2950 19900 4600
 Connection ~ 19900 2950
 Connection ~ 19900 4600
+Text GLabel 4400 4800 0    39   Input ~ 0
+ROW0
+Text GLabel 2650 3050 0    39   Input ~ 0
+ROW0
+Text GLabel 2650 3150 0    39   Input ~ 0
+ROW1
+Text GLabel 2650 3450 0    39   Input ~ 0
+ROW2
+Text GLabel 2650 3550 0    39   Input ~ 0
+ROW3
+Text GLabel 2650 3650 0    39   Input ~ 0
+ROW4
+Text GLabel 2650 3750 0    39   Input ~ 0
+ROW5
+Text GLabel 2650 3850 0    39   Input ~ 0
+ROW6
+Text GLabel 2650 3950 0    39   Input ~ 0
+ROW7
+Text GLabel 2650 4050 0    39   Input ~ 0
+ROW8
+Text GLabel 4950 4800 2    39   Input ~ 0
+ROW0
+Text GLabel 4050 3450 2    39   Input ~ 0
+COL0
+Text GLabel 4050 3550 2    39   Input ~ 0
+COL1
+Text GLabel 4050 3650 2    39   Input ~ 0
+COL2
+Text GLabel 4050 3750 2    39   Input ~ 0
+COL3
+Text GLabel 4050 3850 2    39   Input ~ 0
+COL4
+Text GLabel 4050 3950 2    39   Input ~ 0
+COL5
+Text GLabel 4050 4050 2    39   Input ~ 0
+COL6
+Text GLabel 4050 4150 2    39   Input ~ 0
+COL7
+$Comp
+L promicro:ProMicro U?
+U 1 1 5FA7FDE3
+P 3350 3800
+F 0 "U?" H 3350 4837 60  0000 C CNN
+F 1 "ProMicro" H 3350 4731 60  0000 C CNN
+F 2 "" H 3450 2750 60  0000 C CNN
+F 3 "" H 3450 2750 60  0000 C CNN
+	1    3350 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 1200 0    39   Input ~ 0
+ROW0
+Text GLabel 2650 1500 0    39   Input ~ 0
+ROW1
+Text GLabel 2650 1600 0    39   Input ~ 0
+ROW2
+Text GLabel 2650 1700 0    39   Input ~ 0
+ROW3
+Text GLabel 2650 1800 0    39   Input ~ 0
+ROW4
+Text GLabel 2650 1900 0    39   Input ~ 0
+ROW5
+Text GLabel 2650 2000 0    39   Input ~ 0
+ROW6
+Text GLabel 2650 2100 0    39   Input ~ 0
+ROW7
+Text GLabel 2650 2200 0    39   Input ~ 0
+ROW8
+Text GLabel 4050 1500 2    39   Input ~ 0
+COL0
+Text GLabel 4050 1600 2    39   Input ~ 0
+COL1
+Text GLabel 4050 1700 2    39   Input ~ 0
+COL2
+Text GLabel 4050 1800 2    39   Input ~ 0
+COL3
+Text GLabel 4050 1900 2    39   Input ~ 0
+COL4
+Text GLabel 4050 2000 2    39   Input ~ 0
+COL5
+Text GLabel 4050 2100 2    39   Input ~ 0
+COL6
+Text GLabel 4050 2200 2    39   Input ~ 0
+COL7
+$Comp
+L promicro:ProMicro U?
+U 1 1 601A4F40
+P 3350 1850
+F 0 "U?" H 3350 2887 60  0000 C CNN
+F 1 "ProMicro" H 3350 2781 60  0000 C CNN
+F 2 "" H 3450 800 60  0000 C CNN
+F 3 "" H 3450 800 60  0000 C CNN
+	1    3350 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
