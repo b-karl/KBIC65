@@ -611,8 +611,6 @@ F 3 "~" V 25450 4300 50  0001 C CNN
 	1    25450 4300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	25450 4200 25550 4200
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_BkSlsh1
 U 1 1 5FCF018D
@@ -661,15 +659,6 @@ F 3 "~" V 24550 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	24550 5900 24550 5450
-Wire Wire Line
-	18750 5250 19750 5250
-Wire Wire Line
-	20750 5250 21750 5250
-Wire Wire Line
-	22750 5250 23750 5250
-Connection ~ 25750 5250
-Wire Wire Line
-	25750 5250 24750 5250
 Connection ~ 14550 6100
 Wire Wire Line
 	14550 6100 12550 6100
@@ -727,20 +716,16 @@ COL2
 Text GLabel 19750 2550 1    79   Input ~ 0
 COL3
 Wire Wire Line
-	21750 4000 21750 2550
+	21750 4000 21750 3700
 Text GLabel 21750 2550 1    79   Input ~ 0
 COL4
 Wire Wire Line
-	23750 4000 23750 2550
+	23750 4000 23750 3700
 Text GLabel 23750 2550 1    79   Input ~ 0
 COL5
-Wire Wire Line
-	25750 4000 25750 3450
 Text GLabel 25750 2550 1    79   Input ~ 0
 COL6
 Connection ~ 25750 4000
-Connection ~ 23750 4000
-Connection ~ 21750 4000
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_D1
 U 1 1 5FE8C67A
@@ -1293,35 +1278,6 @@ F 3 "~" V 24550 8950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	24550 8850 24550 8300
-Wire Wire Line
-	18750 8100 19750 8100
-Connection ~ 18750 6650
-Wire Wire Line
-	18750 6650 19750 6650
-Connection ~ 19750 8100
-Wire Wire Line
-	19750 8100 18750 6650
-Wire Wire Line
-	20750 8100 21750 8100
-Connection ~ 20750 6650
-Wire Wire Line
-	20750 6650 21750 6650
-Connection ~ 21750 8100
-Wire Wire Line
-	21750 8100 20750 6650
-Wire Wire Line
-	22750 8100 23750 8100
-Connection ~ 22750 6650
-Wire Wire Line
-	22750 6650 23750 6650
-Connection ~ 23750 8100
-Wire Wire Line
-	23750 8100 22750 6650
-Wire Wire Line
-	24750 6650 26750 8100
-Connection ~ 26750 8100
-Wire Wire Line
-	26750 8100 24750 8100
 Connection ~ 14550 9050
 Wire Wire Line
 	14550 9050 12550 9050
@@ -1385,15 +1341,6 @@ Wire Wire Line
 Connection ~ 21450 7050
 Wire Wire Line
 	21450 7050 23450 7050
-Wire Wire Line
-	19750 6650 18750 5250
-Wire Wire Line
-	21750 6650 20750 5250
-Wire Wire Line
-	23750 6650 22750 5250
-Connection ~ 23750 6650
-Connection ~ 21750 6650
-Connection ~ 19750 6650
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_LWin1
 U 1 1 5FEAB455
@@ -1565,10 +1512,6 @@ Wire Wire Line
 Wire Wire Line
 	18750 10000 18750 8100
 Wire Wire Line
-	22750 10000 20750 8100
-Wire Wire Line
-	23750 10000 22750 8100
-Wire Wire Line
 	24750 8100 24750 10000
 Connection ~ 13450 10400
 Wire Wire Line
@@ -1590,13 +1533,7 @@ Wire Wire Line
 	24450 10400 23450 10400
 Wire Wire Line
 	25450 10400 24450 10400
-Connection ~ 18750 5250
-Connection ~ 20750 5250
-Connection ~ 22750 5250
 Connection ~ 23450 7050
-Wire Wire Line
-	24750 5250 24750 6650
-Connection ~ 24750 5250
 Connection ~ 24750 6650
 $Comp
 L Device:D_Small D_E1
@@ -1609,9 +1546,6 @@ F 3 "~" V 15450 5550 50  0001 C CNN
 	1    15450 5550
 	0    -1   -1   0   
 $EndComp
-Connection ~ 18750 8100
-Connection ~ 20750 8100
-Connection ~ 22750 8100
 Connection ~ 24750 8100
 Wire Wire Line
 	24550 4750 22550 4750
@@ -1834,12 +1768,6 @@ F 3 "" H 23975 4025 60  0001 C CNN
 	1    24600 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	20750 4000 21750 4000
-Wire Wire Line
-	22750 4000 23750 4000
-Wire Wire Line
-	25750 4000 24750 4000
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_LShift_ANSI
 U 1 1 5FDB85B5
@@ -1875,9 +1803,6 @@ F 3 "" H 17975 11075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18550 11250 18550 10200
-Connection ~ 18550 10200
-Wire Wire Line
 	18750 11050 18750 10000
 Connection ~ 18750 10000
 $Comp
@@ -1904,9 +1829,6 @@ F 3 "" H 21975 11525 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	22750 10850 22750 11500
-Wire Wire Line
-	22550 11050 22550 10200
-Connection ~ 22550 10200
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_RWin2_1.25u_RCtrl
 U 1 1 5FE74F69
@@ -1920,35 +1842,27 @@ F 3 "" H 22975 10925 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	23750 10000 23750 10900
-Connection ~ 23750 10000
-Wire Wire Line
-	23550 10200 23550 11100
-Connection ~ 23550 10200
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_Enter2_ISO_Hash
 U 1 1 5FE93AC3
-P 25600 6700
-F 0 "MX_Enter2_ISO_Hash" H 25633 6923 60  0000 C CNN
-F 1 "MX-NoLED" H 25633 6849 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2.25U-NoLED" H 24975 6675 60  0001 C CNN
-F 3 "" H 24975 6675 60  0001 C CNN
-	1    25600 6700
+P 25300 6700
+F 0 "MX_Enter2_ISO_Hash" H 25333 6923 60  0000 C CNN
+F 1 "MX-NoLED" H 25333 6849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-NoLED" H 24675 6675 60  0001 C CNN
+F 3 "" H 24675 6675 60  0001 C CNN
+	1    25300 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	24750 6650 25750 6650
-Wire Wire Line
-	25550 6850 24550 6850
 Connection ~ 24550 6850
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_BkSlash2_ISO_Enter
 U 1 1 5FEB466D
-P 26000 5600
-F 0 "MX_BkSlash2_ISO_Enter" H 26033 5823 60  0000 C CNN
-F 1 "MX-NoLED" H 26033 5749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 25375 5575 60  0001 C CNN
-F 3 "" H 25375 5575 60  0001 C CNN
-	1    26000 5600
+P 26650 5300
+F 0 "MX_BkSlash2_ISO_Enter" H 26683 5523 60  0000 C CNN
+F 1 "MX-NoLED" H 26683 5449 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 26025 5275 60  0001 C CNN
+F 3 "" H 26025 5275 60  0001 C CNN
+	1    26650 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1963,45 +1877,16 @@ F 3 "" H 24975 3475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	25550 3650 25550 4200
-Connection ~ 25550 4200
-Wire Wire Line
-	25950 5750 25550 5450
-Connection ~ 25550 5450
-Wire Wire Line
-	26500 5550 25750 5250
-Connection ~ 24750 4000
-Wire Wire Line
-	24750 4000 25750 5250
-Connection ~ 22750 4000
-Connection ~ 23750 5250
-Wire Wire Line
-	23750 5250 22750 4000
-Connection ~ 20750 4000
-Connection ~ 21750 5250
-Wire Wire Line
-	21750 5250 20750 4000
-Connection ~ 18750 4000
-Connection ~ 19750 5250
-Wire Wire Line
-	19750 5250 18750 4000
-Wire Wire Line
 	11700 8300 12550 8300
 Connection ~ 12550 8300
 Connection ~ 25750 3450
 Wire Wire Line
-	25750 3450 25750 2550
+	25750 3450 25750 3150
 Wire Wire Line
 	11800 6850 12550 6850
 Connection ~ 12550 6850
 Text GLabel 27750 2550 1    79   Input ~ 0
 COL7
-Wire Wire Line
-	26750 4000 27750 5250
-Connection ~ 26750 4000
-Connection ~ 27750 5250
-Wire Wire Line
-	26750 4000 27750 4000
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_BkSp2
 U 1 1 5FCF20DB
@@ -2028,7 +1913,6 @@ F 3 "~" V 26550 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	26550 4750 24550 4750
-Connection ~ 26750 10000
 Wire Wire Line
 	23450 7050 27450 7050
 Wire Wire Line
@@ -2037,12 +1921,10 @@ Connection ~ 27750 6650
 Wire Wire Line
 	27750 6650 27750 5250
 Wire Wire Line
-	27750 10000 27750 8100
+	27750 10000 27750 9700
 Wire Wire Line
 	27750 8100 27750 6650
 Connection ~ 27750 8100
-Wire Wire Line
-	26750 10000 27600 10000
 Wire Wire Line
 	26450 10200 26550 10200
 $Comp
@@ -2141,7 +2023,7 @@ F 3 "" H 26975 6675 60  0001 C CNN
 $EndComp
 Connection ~ 27750 4000
 Wire Wire Line
-	27750 4000 27750 2550
+	27750 4000 27750 3700
 Wire Wire Line
 	25450 4400 27450 4400
 Wire Wire Line
@@ -2200,12 +2082,6 @@ Wire Wire Line
 	26200 10400 26200 9050
 Connection ~ 24550 9050
 Wire Wire Line
-	22550 11050 22550 11700
-Connection ~ 22550 11050
-Connection ~ 25750 10000
-Wire Wire Line
-	25750 10000 26750 10000
-Wire Wire Line
 	18550 4550 18550 4200
 Wire Wire Line
 	19450 4400 21450 4400
@@ -2213,10 +2089,7 @@ Connection ~ 19450 4400
 Wire Wire Line
 	17450 4400 19450 4400
 Wire Wire Line
-	18750 4000 19750 4000
-Connection ~ 19750 4000
-Wire Wire Line
-	19750 4000 19750 2550
+	19750 4000 19750 3700
 Wire Wire Line
 	19450 4200 19550 4200
 $Comp
@@ -2261,7 +2134,6 @@ Wire Wire Line
 Connection ~ 24550 7650
 Wire Wire Line
 	22750 10000 22750 10850
-Connection ~ 22750 10000
 Connection ~ 22750 10850
 Wire Wire Line
 	12750 8100 12750 7850
@@ -2366,4 +2238,200 @@ Wire Wire Line
 Connection ~ 17750 6650
 Wire Wire Line
 	17750 6650 17750 8100
+Wire Wire Line
+	18750 8100 18750 6650
+Wire Wire Line
+	18750 3700 19750 3700
+Connection ~ 18750 8100
+Connection ~ 18750 4000
+Wire Wire Line
+	18750 4000 18750 3700
+Connection ~ 18750 5250
+Wire Wire Line
+	18750 5250 18750 4000
+Connection ~ 18750 6650
+Wire Wire Line
+	18750 6650 18750 5250
+Connection ~ 19750 3700
+Wire Wire Line
+	19750 3700 19750 2550
+Wire Wire Line
+	19750 4000 19750 5250
+Connection ~ 19750 4000
+Connection ~ 19750 5250
+Wire Wire Line
+	19750 5250 19750 6650
+Connection ~ 19750 6650
+Wire Wire Line
+	19750 6650 19750 8100
+Wire Wire Line
+	18550 10200 18550 10800
+Wire Wire Line
+	18550 10800 18250 10800
+Wire Wire Line
+	18250 10800 18250 11250
+Wire Wire Line
+	18250 11250 18550 11250
+Connection ~ 18550 10200
+Wire Wire Line
+	22700 9900 22700 9450
+Wire Wire Line
+	22700 9450 21750 9450
+Wire Wire Line
+	21750 9450 21750 8100
+Connection ~ 21750 4000
+Connection ~ 21750 5250
+Wire Wire Line
+	21750 5250 21750 4000
+Connection ~ 21750 6650
+Wire Wire Line
+	21750 6650 21750 5250
+Connection ~ 21750 8100
+Wire Wire Line
+	21750 8100 21750 6650
+Wire Wire Line
+	21750 3700 20750 3700
+Wire Wire Line
+	20750 3700 20750 4000
+Connection ~ 21750 3700
+Wire Wire Line
+	21750 3700 21750 2550
+Wire Wire Line
+	20750 8100 20750 6650
+Connection ~ 20750 4000
+Connection ~ 20750 5250
+Wire Wire Line
+	20750 5250 20750 4000
+Connection ~ 20750 6650
+Wire Wire Line
+	20750 6650 20750 5250
+Wire Wire Line
+	22550 10200 22550 10550
+Wire Wire Line
+	22550 10550 22350 10550
+Wire Wire Line
+	22350 10550 22350 11050
+Wire Wire Line
+	22350 11700 22550 11700
+Connection ~ 22550 10200
+Wire Wire Line
+	22550 11050 22350 11050
+Connection ~ 22350 11050
+Wire Wire Line
+	22350 11050 22350 11700
+Wire Wire Line
+	23550 10200 23550 10650
+Wire Wire Line
+	23550 10650 23300 10650
+Wire Wire Line
+	23300 10650 23300 11100
+Wire Wire Line
+	23300 11100 23550 11100
+Connection ~ 23550 10200
+Wire Wire Line
+	23750 10000 23750 8100
+Connection ~ 23750 10000
+Connection ~ 23750 4000
+Connection ~ 23750 5250
+Wire Wire Line
+	23750 5250 23750 4000
+Connection ~ 23750 6650
+Wire Wire Line
+	23750 6650 23750 5250
+Connection ~ 23750 8100
+Wire Wire Line
+	23750 8100 23750 6650
+Wire Wire Line
+	23750 3700 22750 3700
+Wire Wire Line
+	22750 3700 22750 4000
+Connection ~ 23750 3700
+Wire Wire Line
+	23750 3700 23750 2550
+Wire Wire Line
+	22750 8100 22750 6650
+Connection ~ 22750 4000
+Connection ~ 22750 5250
+Wire Wire Line
+	22750 5250 22750 4000
+Connection ~ 22750 6650
+Wire Wire Line
+	22750 6650 22750 5250
+Wire Wire Line
+	26600 5450 25550 5450
+Connection ~ 25550 5450
+Wire Wire Line
+	24750 8100 24750 6900
+Wire Wire Line
+	26750 7850 26750 8100
+Wire Wire Line
+	25750 4000 25750 5250
+Connection ~ 25750 5250
+Wire Wire Line
+	26750 7850 25750 7850
+Wire Wire Line
+	24750 5250 24750 4000
+Connection ~ 24750 5250
+Wire Wire Line
+	24750 5250 24750 6650
+Wire Wire Line
+	25250 6850 24550 6850
+Wire Wire Line
+	25750 5250 25750 5550
+Wire Wire Line
+	25450 6650 25450 6900
+Wire Wire Line
+	25450 6900 24750 6900
+Connection ~ 24750 6900
+Wire Wire Line
+	24750 6900 24750 6650
+Wire Wire Line
+	26800 5250 26800 5550
+Wire Wire Line
+	26800 5550 25750 5550
+Connection ~ 25750 5550
+Wire Wire Line
+	25750 5550 25750 7850
+Wire Wire Line
+	27750 4000 27750 5250
+Connection ~ 27750 5250
+Wire Wire Line
+	25750 10000 25750 9700
+Wire Wire Line
+	25750 9700 26750 9700
+Connection ~ 25750 10000
+Connection ~ 27750 9700
+Wire Wire Line
+	27750 9700 27750 8100
+Wire Wire Line
+	26750 10000 26750 9700
+Connection ~ 26750 9700
+Wire Wire Line
+	26750 9700 27750 9700
+Wire Wire Line
+	25550 3650 25250 3650
+Wire Wire Line
+	25250 3650 25250 4200
+Wire Wire Line
+	25250 4200 25450 4200
+Connection ~ 25450 4200
+Wire Wire Line
+	25450 4200 25550 4200
+Connection ~ 24750 4000
+Wire Wire Line
+	25750 3450 25750 4000
+Wire Wire Line
+	24750 3150 25750 3150
+Wire Wire Line
+	24750 3150 24750 4000
+Connection ~ 25750 3150
+Wire Wire Line
+	25750 3150 25750 2550
+Wire Wire Line
+	26750 4000 26750 3700
+Wire Wire Line
+	26750 3700 27750 3700
+Connection ~ 27750 3700
+Wire Wire Line
+	27750 3700 27750 2550
 $EndSCHEMATC
