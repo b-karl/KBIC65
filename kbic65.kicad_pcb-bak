@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFEFFF)
+    (visible_elements 7FFDEFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -2925,7 +2925,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADF06)
-    (at 280.82875 15.24 270)
+    (at 279.24125 10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C6A7)
@@ -2964,7 +2964,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB002A)
-    (at 289.2425 -24.60625 270)
+    (at 320.9925 -29.36875 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEBE51)
@@ -3003,7 +3003,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADE16)
-    (at 280.035 5.715 270)
+    (at 310.99125 -0.635 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C69A)
@@ -3042,7 +3042,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAFFCA)
-    (at 281.6225 -24.60625 270)
+    (at 313.3725 -29.36875 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCE949F)
@@ -3081,7 +3081,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADEA6)
-    (at 283.845 5.715 270)
+    (at 314.80125 -0.635 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C6CE)
@@ -3120,7 +3120,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADCF6)
-    (at 299.085 5.715 270)
+    (at 368.3 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C79E)
@@ -3159,7 +3159,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADDB6)
-    (at 293.21125 -34.6075 270)
+    (at 291.62375 -39.37 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEBE44)
@@ -3198,7 +3198,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADD56)
-    (at 309.5625 -58.26125 270)
+    (at 382.5875 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCF20D4)
@@ -3237,7 +3237,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB005A)
-    (at 277.8125 -24.60625 270)
+    (at 309.5625 -29.36875 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCE1AFC)
@@ -3276,7 +3276,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADD86)
-    (at 289.40125 -34.6075 270)
+    (at 287.81375 -39.37 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEAB59)
@@ -3315,7 +3315,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADC66)
-    (at 288.44875 24.28875 270)
+    (at 286.86125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB475)
@@ -3353,8 +3353,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADC96)
-    (at 295.275 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB117B)
+    (at 327.81875 -10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C75D)
@@ -3392,8 +3392,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADD26)
-    (at 280.035 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB11AB)
+    (at 312.57875 -10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C68D)
@@ -3432,7 +3432,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADE76)
-    (at 296.06875 24.28875 270)
+    (at 294.48125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB48F)
@@ -3471,7 +3471,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADBD6)
-    (at 299.87875 15.24 270)
+    (at 298.29125 10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C7AB)
@@ -3510,7 +3510,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADC06)
-    (at 302.895 5.715 270)
+    (at 401.6375 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C7D2)
@@ -3549,7 +3549,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADE46)
-    (at 299.87875 24.28875 270)
+    (at 298.29125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB49C)
@@ -3588,7 +3588,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAFFFA)
-    (at 300.6725 -24.60625 270)
+    (at 332.4225 -29.36875 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCF01A0)
@@ -3627,7 +3627,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD8A6)
-    (at 292.25875 24.28875 270)
+    (at 290.67125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB482)
@@ -3666,7 +3666,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAFF6A)
-    (at 285.4325 -24.60625 270)
+    (at 317.1825 -29.36875 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEAB66)
@@ -3705,7 +3705,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADA26)
-    (at 281.78125 -34.6075 270)
+    (at 280.19375 -39.37 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCE11C1)
@@ -3744,7 +3744,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADBA6)
-    (at 302.895 -13.97 270)
+    (at 392.1125 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C7B8)
@@ -3782,8 +3782,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADB76)
-    (at 302.895 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB114B)
+    (at 396.875 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C7C5)
@@ -3822,7 +3822,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAFF9A)
-    (at 296.8625 -24.60625 270)
+    (at 328.6125 -29.36875 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEE66D)
@@ -3861,7 +3861,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADAB6)
-    (at 297.02125 -34.6075 270)
+    (at 295.43375 -39.37 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCED5E2)
@@ -3900,7 +3900,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADB16)
-    (at 287.655 5.715 270)
+    (at 318.61125 -0.635 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C702)
@@ -3939,7 +3939,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADB46)
-    (at 292.25875 15.24 270)
+    (at 290.67125 10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C743)
@@ -3978,7 +3978,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADAE6)
-    (at 280.82875 24.28875 270)
+    (at 279.24125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB45B)
@@ -4017,7 +4017,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADA86)
-    (at 277.01875 15.24 270)
+    (at 275.43125 10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C673)
@@ -4056,7 +4056,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD8D6)
-    (at 303.68875 24.28875 270)
+    (at 302.10125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB4A9)
@@ -4095,7 +4095,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDADA56)
-    (at 277.01875 24.28875 270)
+    (at 275.43125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB44E)
@@ -4134,7 +4134,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD996)
-    (at 300.83125 -34.6075 270)
+    (at 299.24375 -39.37 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEE660)
@@ -4173,7 +4173,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD9F6)
-    (at 284.63875 24.28875 270)
+    (at 283.05125 19.52625 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FEAB468)
@@ -4212,7 +4212,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD966)
-    (at 291.465 -13.97 270)
+    (at 324.00875 -20.32 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C71C)
@@ -4250,8 +4250,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD936)
-    (at 291.465 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB111B)
+    (at 324.00875 -10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C729)
@@ -4290,7 +4290,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD906)
-    (at 287.655 -13.97 270)
+    (at 320.19875 -20.32 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C6E8)
@@ -4328,8 +4328,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD1C2)
-    (at 276.225 5.715 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB102B)
+    (at 307.18125 -0.635 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C666)
@@ -4368,7 +4368,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAFF0A)
-    (at 293.0525 -24.60625 270)
+    (at 324.8025 -29.36875 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCED5EF)
@@ -4407,7 +4407,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD2E2)
-    (at 296.8625 -58.26125 270)
+    (at 319.0875 -66.9925 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEE646)
@@ -4445,8 +4445,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD2B2)
-    (at 287.655 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB10BB)
+    (at 320.19875 -10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C6F5)
@@ -4485,7 +4485,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD1F2)
-    (at 283.845 -13.97 270)
+    (at 316.38875 -20.32 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C6B4)
@@ -4524,7 +4524,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD432)
-    (at 295.275 5.715 270)
+    (at 326.23125 -0.635 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C76A)
@@ -4562,8 +4562,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD3A2)
-    (at 283.845 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB10EB)
+    (at 316.38875 -10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C6C1)
@@ -4602,7 +4602,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD192)
-    (at 275.43125 -46.99 270)
+    (at 273.84375 -51.7525 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCDA080)
@@ -4641,7 +4641,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD372)
-    (at 298.29125 -46.99 270)
+    (at 296.70375 -51.7525 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCF0186)
@@ -4679,8 +4679,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD222)
-    (at 299.085 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB105B)
+    (at 331.62875 -10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C791)
@@ -4719,7 +4719,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD342)
-    (at 285.59125 -34.6075 270)
+    (at 284.00375 -39.37 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCE9492)
@@ -4758,7 +4758,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD402)
-    (at 303.68875 15.24 270)
+    (at 373.0625 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C7DF)
@@ -4797,7 +4797,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD3D2)
-    (at 296.06875 15.24 270)
+    (at 294.48125 10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C777)
@@ -4836,7 +4836,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAFF3A)
-    (at 304.4825 -24.60625 270)
+    (at 387.35 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCF20FB)
@@ -4875,7 +4875,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD162)
-    (at 280.035 -13.97 270)
+    (at 312.57875 -20.32 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C680)
@@ -4913,8 +4913,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD282)
-    (at 276.225 -4.1275 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB108B)
+    (at 308.76875 -10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C659)
@@ -4953,7 +4953,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD252)
-    (at 291.465 5.715 270)
+    (at 322.42125 -0.635 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C736)
@@ -4992,7 +4992,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD132)
-    (at 284.63875 15.24 270)
+    (at 283.05125 10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C6DB)
@@ -5030,8 +5030,8 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD7AA)
-    (at 302.10125 -46.99 270)
+  (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDB143B)
+    (at 358.775 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCF20E1)
@@ -5070,7 +5070,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD53A)
-    (at 300.6725 -58.26125 270)
+    (at 322.8975 -66.9925 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCF0179)
@@ -5109,7 +5109,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD6EA)
-    (at 304.64125 -34.6075 270)
+    (at 363.5375 31.75 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCF0193)
@@ -5148,7 +5148,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD65A)
-    (at 288.44875 15.24 270)
+    (at 286.86125 10.4775 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C70F)
@@ -5187,7 +5187,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD74A)
-    (at 276.225 -13.97 270)
+    (at 308.76875 -20.32 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C64C)
@@ -5226,7 +5226,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD62A)
-    (at 295.275 -13.97 270)
+    (at 327.81875 -20.32 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FE8C750)
@@ -5265,7 +5265,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD5CA)
-    (at 293.0525 -58.26125 270)
+    (at 315.2775 -66.9925 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCED5C8)
@@ -5304,7 +5304,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD80A)
-    (at 290.67125 -46.99 270)
+    (at 289.08375 -51.7525 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCED5D5)
@@ -5343,7 +5343,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD6BA)
-    (at 289.2425 -58.26125 270)
+    (at 311.4675 -66.9925 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEBE2A)
@@ -5382,7 +5382,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD68A)
-    (at 286.86125 -46.99 270)
+    (at 285.27375 -51.7525 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEBE37)
@@ -5421,7 +5421,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD59A)
-    (at 285.4325 -58.26125 270)
+    (at 307.6575 -66.9925 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEAB3F)
@@ -5460,7 +5460,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD5FA)
-    (at 283.05125 -46.99 270)
+    (at 281.46375 -51.7525 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEAB4C)
@@ -5499,7 +5499,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD7DA)
-    (at 281.6225 -58.26125 270)
+    (at 303.8475 -66.9925 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCE9478)
@@ -5538,7 +5538,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD77A)
-    (at 279.24125 -46.99 270)
+    (at 277.65375 -51.7525 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCE9485)
@@ -5577,7 +5577,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD56A)
-    (at 277.8125 -58.26125 270)
+    (at 300.0375 -66.9925 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FA81752)
@@ -5616,7 +5616,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp (layer F.Cu) (tedit 5AE50CD5) (tstamp 5FDAD71A)
-    (at 294.48125 -46.99 270)
+    (at 292.89375 -51.7525 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm")
     (path /5FCEE653)
