@@ -182,50 +182,50 @@ F 3 "~" V 12650 10100 50  0001 C CNN
 	1    12650 10100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3150 3350 0    39   Input ~ 0
-ROW0
-Text GLabel 3150 3650 0    39   Input ~ 0
-ROW1
-Text GLabel 3150 3750 0    39   Input ~ 0
-ROW2
-Text GLabel 3150 3850 0    39   Input ~ 0
-ROW3
-Text GLabel 3150 3950 0    39   Input ~ 0
-ROW4
-Text GLabel 3150 4050 0    39   Input ~ 0
-ROW5
-Text GLabel 3150 4150 0    39   Input ~ 0
-ROW6
-Text GLabel 3150 4250 0    39   Input ~ 0
-ROW7
-Text GLabel 3150 4350 0    39   Input ~ 0
+Text GLabel 8900 4550 3    39   Input ~ 0
 ROW8
-Text GLabel 4550 3650 2    39   Input ~ 0
+Text GLabel 9200 4550 3    39   Input ~ 0
+ROW7
+Text GLabel 9300 4550 3    39   Input ~ 0
+ROW6
+Text GLabel 9400 4550 3    39   Input ~ 0
+ROW5
+Text GLabel 9500 4550 3    39   Input ~ 0
+ROW4
+Text GLabel 9600 4550 3    39   Input ~ 0
+ROW3
+Text GLabel 9700 4550 3    39   Input ~ 0
+ROW2
+Text GLabel 9800 4550 3    39   Input ~ 0
+ROW1
+Text GLabel 9900 4550 3    39   Input ~ 0
+ROW0
+Text GLabel 9200 3150 1    39   Input ~ 0
 COL0
-Text GLabel 4550 3750 2    39   Input ~ 0
+Text GLabel 9300 3150 1    39   Input ~ 0
 COL1
-Text GLabel 4550 3850 2    39   Input ~ 0
+Text GLabel 9400 3150 1    39   Input ~ 0
 COL2
-Text GLabel 4550 3950 2    39   Input ~ 0
+Text GLabel 9500 3150 1    39   Input ~ 0
 COL3
-Text GLabel 4550 4050 2    39   Input ~ 0
+Text GLabel 9600 3150 1    39   Input ~ 0
 COL4
-Text GLabel 4550 4150 2    39   Input ~ 0
+Text GLabel 9700 3150 1    39   Input ~ 0
 COL5
-Text GLabel 4550 4250 2    39   Input ~ 0
+Text GLabel 9800 3150 1    39   Input ~ 0
 COL6
-Text GLabel 4550 4350 2    39   Input ~ 0
+Text GLabel 9900 3150 1    39   Input ~ 0
 COL7
 $Comp
 L promicro:ProMicro U1
 U 1 1 601A4F40
-P 3850 4000
-F 0 "U1" H 3850 5037 60  0000 C CNN
-F 1 "ProMicro" H 3850 4931 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" H 3950 2950 60  0001 C CNN
-F 3 "" H 3950 2950 60  0000 C CNN
-	1    3850 4000
-	1    0    0    -1  
+P 9550 3850
+F 0 "U1" H 9550 4887 60  0000 C CNN
+F 1 "ProMicro" H 9550 4781 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" H 9650 2800 60  0001 C CNN
+F 3 "" H 9650 2800 60  0000 C CNN
+	1    9550 3850
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D_3
