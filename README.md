@@ -8,6 +8,9 @@
 - Designed to be mountable in both an open PCB-stack or in a plate-mounted case
 - 8x9 wiring matrix requiring only 17 pins on a ProMicro compatible controller
 
+# Layout options
+
+![image info](./img/layout-options.svg)
 
 # Comparison to similar keyboards
 
