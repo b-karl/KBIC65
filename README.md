@@ -63,8 +63,14 @@ A great take on the THT and would be my choice to buy if I didn't want to make s
 
 - [theksmith Discipline65](https://theksmith.com/hardware/designing-building-custom-mechanical-keyboard-2020/): Honorable mention on Discipline65 case design
 
-- [4Bar60 by u/struct_Nodes](https://www.reddit.com/r/MechanicalKeyboards/comments/kyjpx3/my_girlfriend_surprised_me_with_a_breakup_before/): I found this keyboard in the middle of my PCB design but it is very similar to my intended design, expcept being a 60% of course.
+- [4Bar60 by u/struct_Nodes](https://www.reddit.com/r/MechanicalKeyboards/comments/kyjpx3/my_girlfriend_surprised_me_with_a_breakup_before/)
+I found this keyboard in the middle of my PCB design but it is very similar to my intended design, expcept being a 60% of course.
 
-- [WorldspawnsKeebs Houndstooth](https://www.etsy.com/uk/listing/717316405/houndstooth-kit-does-not-include?show_sold_out_detail=1&ref=nla_listing_details): A split ortholinear 4x6 with a nice take on a clear case
+- [WorldspawnsKeebs Houndstooth](https://www.etsy.com/uk/listing/717316405/houndstooth-kit-does-not-include?show_sold_out_detail=1&ref=nla_listing_details)
+A split ortholinear 4x6 with a nice take on a clear case
 
-- [Seoulcialite Argyle60](https://geekhack.org/index.php?topic=106255.0): Great case for a THT kit and very interesting with side windows instead of placed above the key layout. Inspiration for moving the ProMicro footprint and diode row up 1/4 units to allow top case to have a divider between main layout and THT window.
+- [Seoulcialite Argyle60](https://geekhack.org/index.php?topic=106255.0)
+Great case for a THT kit and very interesting with side windows instead of placed above the key layout. Inspiration for moving the ProMicro footprint and diode row up 1/4 units to allow top case to have a divider between main layout and THT window.
+
+- [EBastler Isometria75](https://github.com/ebastler/isometria-75)
+Makes me want to try to change the keyspacing on my keyboard, but I am unfortunately not brave enough.
