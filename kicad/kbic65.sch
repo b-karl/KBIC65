@@ -201,21 +201,21 @@ ROW1
 Text GLabel 9900 4550 3    39   Input ~ 0
 ROW0
 Text GLabel 9200 3150 1    39   Input ~ 0
-COL0
-Text GLabel 9300 3150 1    39   Input ~ 0
-COL1
-Text GLabel 9400 3150 1    39   Input ~ 0
-COL2
-Text GLabel 9500 3150 1    39   Input ~ 0
-COL3
-Text GLabel 9600 3150 1    39   Input ~ 0
-COL4
-Text GLabel 9700 3150 1    39   Input ~ 0
-COL5
-Text GLabel 9800 3150 1    39   Input ~ 0
-COL6
-Text GLabel 9900 3150 1    39   Input ~ 0
 COL7
+Text GLabel 9300 3150 1    39   Input ~ 0
+COL6
+Text GLabel 9400 3150 1    39   Input ~ 0
+COL5
+Text GLabel 9500 3150 1    39   Input ~ 0
+COL4
+Text GLabel 9600 3150 1    39   Input ~ 0
+COL3
+Text GLabel 9700 3150 1    39   Input ~ 0
+COL2
+Text GLabel 9800 3150 1    39   Input ~ 0
+COL0
+Text GLabel 9900 3150 1    39   Input ~ 0
+COL1
 $Comp
 L promicro:ProMicro U1
 U 1 1 601A4F40
