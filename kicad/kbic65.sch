@@ -185,21 +185,21 @@ $EndComp
 Text GLabel 8900 4550 3    39   Input ~ 0
 ROW8
 Text GLabel 9200 4550 3    39   Input ~ 0
-ROW7
-Text GLabel 9300 4550 3    39   Input ~ 0
 ROW6
+Text GLabel 9300 4550 3    39   Input ~ 0
+ROW7
 Text GLabel 9400 4550 3    39   Input ~ 0
-ROW5
-Text GLabel 9500 4550 3    39   Input ~ 0
 ROW4
+Text GLabel 9500 4550 3    39   Input ~ 0
+ROW5
 Text GLabel 9600 4550 3    39   Input ~ 0
-ROW3
-Text GLabel 9700 4550 3    39   Input ~ 0
 ROW2
+Text GLabel 9700 4550 3    39   Input ~ 0
+ROW3
 Text GLabel 9800 4550 3    39   Input ~ 0
-ROW1
-Text GLabel 9900 4550 3    39   Input ~ 0
 ROW0
+Text GLabel 9900 4550 3    39   Input ~ 0
+ROW1
 Text GLabel 9200 3150 1    39   Input ~ 0
 COL7
 Text GLabel 9300 3150 1    39   Input ~ 0
