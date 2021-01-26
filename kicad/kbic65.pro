@@ -1,4 +1,4 @@
-update=01/24/21 12:55:36
+update=01/25/21 10:22:18
 version=1
 last_client=kicad
 [general]
@@ -249,7 +249,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Robust
-Clearance=0.5
+Clearance=0.25
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
