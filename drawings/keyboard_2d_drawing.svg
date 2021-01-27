@@ -25,12 +25,12 @@
      inkscape:window-width="3672"
      inkscape:window-height="2120"
      id="namedview8118"
-     showgrid="false"
-     inkscape:measure-start="63.5433,420.567"
-     inkscape:measure-end="116.457,420.567"
-     inkscape:zoom="1.9582643"
-     inkscape:cx="481.22568"
-     inkscape:cy="169.34089"
+     showgrid="true"
+     inkscape:measure-start="456.003,53.5513"
+     inkscape:measure-end="456.003,45.9922"
+     inkscape:zoom="2.7694039"
+     inkscape:cx="572.53645"
+     inkscape:cy="254.06338"
      inkscape:window-x="-12"
      inkscape:window-y="-12"
      inkscape:window-maximized="1"
@@ -16128,12 +16128,12 @@
     <path
        id="path10795"
        style="fill:none;stroke:#000000;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 54,134.9291 H 1242"
+       d="M 54.767313,113.57974 H 1242.7673"
        inkscape:connector-curvature="0" />
     <path
        id="path10797"
        style="fill:none;stroke:#000000;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 54,512.9291 H 1242"
+       d="M 54.957481,518.92913 H 1242.9575"
        inkscape:connector-curvature="0" />
     <path
        id="path10799"
@@ -16172,7 +16172,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="PCB"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <circle
        style="opacity:0.57099998;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -17505,4 +17505,22 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Glasses" />
+  <circle
+     style="opacity:0.5;fill:none;fill-opacity:1;stroke:#fa0000;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path5048"
+     cx="456.00302"
+     cy="503.92905"
+     r="9.4488192" />
+  <circle
+     cy="503.92914"
+     cx="456"
+     id="circle5062"
+     style="opacity:0.5;fill:none;fill-opacity:1;stroke:#fa0000;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     r="13.228347" />
+  <circle
+     cy="125.92914"
+     cx="456"
+     id="circle5062-8"
+     style="opacity:0.5;fill:none;fill-opacity:1;stroke:#fa0000;stroke-width:0.75590551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     r="13.228347" />
 </svg>
