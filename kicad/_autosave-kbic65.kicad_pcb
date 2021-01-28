@@ -60,7 +60,7 @@
     (pad_drill 5)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFEFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -298,8 +298,8 @@
     (add_net ROW8)
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 60124AAC)
-    (at 157.95625 182.5625)
+  (module MountingHole:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 60127478)
+    (at 253.20625 188.11875)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
