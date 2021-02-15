@@ -2,7 +2,7 @@
 65% keyboard PCB with ProMicro footprint. 
 
 # Main features/focus
-- Intended to be portable and wireless
+- Intended to be portable and wireless, but with a through-hole technology (THT) style
 - 65%/70 key layout with spaced arrow keys and right-side navigation row in the style of Satistifaction75 and many others. 
 - ProMicro footprint to allow upgrade of microcontroller, currently intended to be used with the nice!nano. Similar 
 - Designed to be mountable in both an open PCB-stack or in a plate-mounted case
@@ -11,6 +11,10 @@
 # Layout options
 
 ![image info](./img/layout-options.svg)
+
+# Current State
+
+![image info](./img/state_of_the_pcb_20210215.png)
 
 # Comparison to similar keyboards
 
