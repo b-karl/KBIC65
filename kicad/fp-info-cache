@@ -1,4 +1,4 @@
-19522627211046701
+19524240631861795
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55089,6 +55089,13 @@ solder jumper open
 0
 5
 3
+KBIC-Parts
+Diode_DO-35_SOD27_P5.08mm_Vertical_AnodeUp
+Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm
+0
+2
+2
 KBIC-Parts
 MountingHole_5mm_KB
 Mounting Hole 5mm, no annular
