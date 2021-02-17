@@ -2714,4 +2714,23 @@ Wire Wire Line
 	12350 4750 14350 4750
 Wire Wire Line
 	11500 4750 12350 4750
+$Comp
+L power:GNDREF #PWR?
+U 1 1 602F2C7C
+P 8900 5250
+F 0 "#PWR?" H 8900 5000 50  0001 C CNN
+F 1 "GNDREF" H 8905 5077 50  0000 C CNN
+F 2 "" H 8900 5250 50  0001 C CNN
+F 3 "" H 8900 5250 50  0001 C CNN
+	1    8900 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 5250 0    50   Input ~ 0
+GND
+Text GLabel 9000 4550 3    39   Input ~ 0
+GND
+Text GLabel 9100 4550 3    39   Input ~ 0
+GND
+Text GLabel 8900 3150 1    39   Input ~ 0
+GND
 $EndSCHEMATC
