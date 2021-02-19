@@ -14,7 +14,11 @@
 
 # Current State
 
-![image info](./img/state_of_the_pcb_20210215.png)
+![image info](./img/state_of_the_pcb_20210219.png)
+
+![image info](./img/top_plate_20210219.png)
+
+![image info](./img/bottom_plate_20210219.png)
 
 # Comparison to similar keyboards
 
