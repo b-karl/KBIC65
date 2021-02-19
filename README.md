@@ -6,7 +6,14 @@
 - 65%/70 key layout with spaced arrow keys and right-side navigation row in the style of Satistifaction75 and many others. 
 - ProMicro footprint to allow upgrade of microcontroller, currently intended to be used with the nice!nano. Similar 
 - Designed to be mountable in both an open PCB-stack or in a plate-mounted case
-- 8x9 wiring matrix requiring only 17 pins on a ProMicro compatible controller
+- 8x9 wiring duplex matrix requiring only 17 pins on a ProMicro compatible controller
+
+# Some design choices
+
+- Partial copper coverage on top of PCB and no copper on bottom or switch plates to improve Bluetooth signal
+- Plate mounted with screws, the PCB contains drilled holes large enough to fit M2 spacers. I.e. the PCB is only connected to the plate via the switches.
+- Four extra M2 mounting holes on bottom plate for possible base to add typing angle
+- Tried to avoid vias (but have one)
 
 # Layout options
 
