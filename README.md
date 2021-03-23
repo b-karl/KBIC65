@@ -1,31 +1,64 @@
 # KBIC65
-65% keyboard PCB with ProMicro footprint. 
+65% keyboard PCB with ProMicro footprint.
 
 # Main features/focus
 - Intended to be portable and wireless, but with a through-hole technology (THT) style
 - 65%/70 key layout with spaced arrow keys and right-side navigation row in the style of Satistifaction75 and many others. 
-- ProMicro footprint to allow upgrade of microcontroller, currently intended to be used with the nice!nano. Similar 
-- Designed to be mountable in both an open PCB-stack or in a plate-mounted case
+- ProMicro footprint to allow upgrade of microcontroller, currently intended to be used with the nice!nano.
+- Designed to be mountable in both an open PCB-stack or in a plate-mounted case (to be designed)
 - 8x9 wiring duplex matrix requiring only 17 pins on a ProMicro compatible controller
 
 # Some design choices
 
 - Partial copper coverage on top of PCB and no copper on bottom or switch plates to improve Bluetooth signal
 - Plate mounted with screws, the PCB contains drilled holes large enough to fit M2 spacers. I.e. the PCB is only connected to the plate via the switches.
-- Four extra M2 mounting holes on bottom plate for possible base to add typing angle
 - Tried to avoid vias (but have one)
+- Since the bottom is symmetrical, there are two alternative design two choose from
 
 # Layout options
 
 ![image info](./img/layout-options.svg)
 
 # Current State
+PCBs have been ordered from JLCPCB!
+
+## PCB Front
 
 ![image info](./img/state_of_the_pcb_20210219.png)
 
+## Plate
+
 ![image info](./img/top_plate_20210219.png)
 
-![image info](./img/bottom_plate_20210219.png)
+## Bottom Option 1 (PCB Front)
+
+![image info](./img/bottom_front_20210323.png)
+
+## Bottom Option 2 (PCB Back)
+
+![image info](./img/bottom_back_20210323.png)
+
+# Making dithered PCB art for KiCad
+When I decided to make an alternative design for the bottom I eventually settled on trying my hand at a dithered image. This was a little trickier than I expected to get looking like I wanted (and still not sure how the end result will appear).
+
+But generally here is the workflow I used in the end, and would recommend
+- Settle on an image to use, crop it to only the part you want to place on the PCB. I settled on a NASA SDO image.
+![image info](./img/sun/color_4k.png | width=1000)
+
+- JLCPCB and probably other PCB manufacturers can print at a resolution of about 0.15 mm which is equivalent to about 169 DPI. This means you should try to use 169 DPI or less, I used 169 DPI. Resize your image so that the resolution of the image at your selected DPI gives you the size you want on the board. I wanted my sun to be approx 90 mm high so I resized to 600px high, which results in an image 90.2 mm high at 169 DPI.
+![image info](./img/sun/grayscale_600.png | width=600)
+
+- Use a dithering tool to dither your image and create a dithered copy. I strongly recommend [Ditherlicious](https://29a.ch/ditherlicious/) but you can look around for other tools you have handy.
+![image info](./img/sun/grayscale_600-dithered.png | width=600)
+
+- Open your KiCad project and then open Convert Image, a.k.a. the bitmap2component tool.
+- Import your dithered image, select Negative if necessary, pick either Front Silk Screen or Front Solder Mask and enter your chosen DPI. Click export and put into a new folder that will become a new KiCad library for you.
+- In Pcbnew or your kicad project, open Preferences > Manage footprint libraries
+- Add your new folder as a footprint library
+- Import your new PCB art footprint onto your PCB
+![image info](./img/sun/kicad_footprint.png | width=600)
+
+- Iterate, I played a lot with different dithering tools, changing the image histogram etc. The bitmap2component tool does not import dithered image exactly but blends pixels together, therefore I would recommend generating a few variants and comparing them in KiCad and possibly the 3D viewer. Please note that these images requires quite a bit of processing from KiCad. Updating the 3D view especially, which took about 1-2 min for me.
 
 # Comparison to similar keyboards
 
