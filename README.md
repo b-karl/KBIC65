@@ -43,20 +43,20 @@ When I decided to make an alternative design for the bottom I eventually settled
 
 But generally here is the workflow I used in the end, and would recommend
 - Settle on an image to use, crop it to only the part you want to place on the PCB. I settled on a NASA SDO image.
-![image info](./img/sun/color_4k.png | width=1000)
+![image info](./img/sun/color_4k.png)
 
 - JLCPCB and probably other PCB manufacturers can print at a resolution of about 0.15 mm which is equivalent to about 169 DPI. This means you should try to use 169 DPI or less, I used 169 DPI. Resize your image so that the resolution of the image at your selected DPI gives you the size you want on the board. I wanted my sun to be approx 90 mm high so I resized to 600px high, which results in an image 90.2 mm high at 169 DPI.
-![image info](./img/sun/grayscale_600.png | width=600)
+![image info](./img/sun/grayscale_600.png)
 
 - Use a dithering tool to dither your image and create a dithered copy. I strongly recommend [Ditherlicious](https://29a.ch/ditherlicious/) but you can look around for other tools you have handy.
-![image info](./img/sun/grayscale_600-dithered.png | width=600)
+![image info](./img/sun/grayscale_600-dithered.png)
 
 - Open your KiCad project and then open Convert Image, a.k.a. the bitmap2component tool.
 - Import your dithered image, select Negative if necessary, pick either Front Silk Screen or Front Solder Mask and enter your chosen DPI. Click export and put into a new folder that will become a new KiCad library for you.
 - In Pcbnew or your kicad project, open Preferences > Manage footprint libraries
 - Add your new folder as a footprint library
 - Import your new PCB art footprint onto your PCB
-![image info](./img/sun/kicad_footprint.png | width=600)
+![image info](./img/sun/kicad_footprint.png)
 
 - Iterate, I played a lot with different dithering tools, changing the image histogram etc. The bitmap2component tool does not import dithered image exactly but blends pixels together, therefore I would recommend generating a few variants and comparing them in KiCad and possibly the 3D viewer. Please note that these images requires quite a bit of processing from KiCad. Updating the 3D view especially, which took about 1-2 min for me.
 
