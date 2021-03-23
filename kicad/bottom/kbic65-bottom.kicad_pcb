@@ -38843,7 +38843,7 @@
   (gr_curve (pts (xy 14.2875 -15.874995) (xy 14.2875 -13.683115) (xy 16.064362 -11.906245) (xy 18.25625 -11.906245)) (layer Edge.Cuts) (width 0.2))
   (gr_curve (pts (xy 18.25625 -150.812494) (xy 16.064362 -150.812494) (xy 14.2875 -149.035623) (xy 14.2875 -146.843744)) (layer Edge.Cuts) (width 0.2))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 606E6123) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 606E618F) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 60))
