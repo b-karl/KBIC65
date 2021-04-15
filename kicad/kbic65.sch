@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Small D_1
+L kbic65-rescue:D_Small-Device D_1
 U 1 1 5FA81752
 P 13650 4100
 F 0 "D_1" H 13650 4200 50  0000 R CNN
@@ -38,7 +38,7 @@ F 3 "" H 12775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Q1
+L kbic65-rescue:D_Small-Device D_Q1
 U 1 1 5FCE11C1
 P 13650 5350
 F 0 "D_Q1" H 13650 5450 50  0000 R CNN
@@ -60,7 +60,7 @@ F 3 "" H 11775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Tab1
+L kbic65-rescue:D_Small-Device D_Tab1
 U 1 1 5FCE1AFC
 P 12650 5350
 F 0 "D_Tab1" H 12650 5450 50  0000 R CNN
@@ -73,7 +73,7 @@ $EndComp
 Text GLabel 13750 2550 1    79   Input ~ 0
 COL0
 $Comp
-L Device:D_Small D_A1
+L kbic65-rescue:D_Small-Device D_A1
 U 1 1 5FE8C64C
 P 13650 6750
 F 0 "D_A1" H 13650 6850 50  0000 R CNN
@@ -95,7 +95,7 @@ F 3 "" H 11775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_CpsLck1
+L kbic65-rescue:D_Small-Device D_CpsLck1
 U 1 1 5FE8C659
 P 12650 6750
 F 0 "D_CpsLck1" H 12650 6850 50  0000 R CNN
@@ -117,7 +117,7 @@ F 3 "" H 12775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_ISO_BKSLSH1
+L kbic65-rescue:D_Small-Device D_ISO_BKSLSH1
 U 1 1 5FE8C666
 P 13650 8200
 F 0 "D_ISO_BKSLSH1" H 13650 8300 50  0000 R CNN
@@ -139,7 +139,7 @@ F 3 "" H 11775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_LShift1
+L kbic65-rescue:D_Small-Device D_LShift1
 U 1 1 5FE8C673
 P 12650 8200
 F 0 "D_LShift1" H 12650 8300 50  0000 R CNN
@@ -172,7 +172,7 @@ F 3 "" H 11775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_LCtrl1
+L kbic65-rescue:D_Small-Device D_LCtrl1
 U 1 1 5FEAB44E
 P 12650 10100
 F 0 "D_LCtrl1" H 12650 10200 50  0000 R CNN
@@ -228,7 +228,7 @@ F 3 "" H 9650 2800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_3
+L kbic65-rescue:D_Small-Device D_3
 U 1 1 5FCE9478
 P 15650 4100
 F 0 "D_3" H 15650 4200 50  0000 R CNN
@@ -261,7 +261,7 @@ F 3 "" H 13775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_W1
+L kbic65-rescue:D_Small-Device D_W1
 U 1 1 5FCE949F
 P 14650 5350
 F 0 "D_W1" H 14650 5450 50  0000 R CNN
@@ -272,7 +272,7 @@ F 3 "~" V 14650 5350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_5
+L kbic65-rescue:D_Small-Device D_5
 U 1 1 5FCEAB3F
 P 17650 4100
 F 0 "D_5" H 17650 4200 50  0000 R CNN
@@ -296,7 +296,7 @@ F 3 "" H 16775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_T1
+L kbic65-rescue:D_Small-Device D_T1
 U 1 1 5FCEAB59
 P 17650 5350
 F 0 "D_T1" H 17650 5450 50  0000 R CNN
@@ -318,7 +318,7 @@ F 3 "" H 15775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_R1
+L kbic65-rescue:D_Small-Device D_R1
 U 1 1 5FCEAB66
 P 16650 5350
 F 0 "D_R1" H 16650 5450 50  0000 R CNN
@@ -340,7 +340,7 @@ F 3 "" H 18775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_U1
+L kbic65-rescue:D_Small-Device D_U1
 U 1 1 5FCEBE44
 P 19650 5350
 F 0 "D_U1" H 19650 5450 50  0000 R CNN
@@ -362,7 +362,7 @@ F 3 "" H 17775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Y1
+L kbic65-rescue:D_Small-Device D_Y1
 U 1 1 5FCEBE51
 P 18650 5350
 F 0 "D_Y1" H 18650 5450 50  0000 R CNN
@@ -384,7 +384,7 @@ F 3 "" H 20775 4025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_9
+L kbic65-rescue:D_Small-Device D_9
 U 1 1 5FCED5C8
 P 21650 4100
 F 0 "D_9" H 21650 4200 50  0000 R CNN
@@ -406,7 +406,7 @@ F 3 "" H 20775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_O1
+L kbic65-rescue:D_Small-Device D_O1
 U 1 1 5FCED5E2
 P 21650 5350
 F 0 "D_O1" H 21650 5450 50  0000 R CNN
@@ -428,7 +428,7 @@ F 3 "" H 19775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_I1
+L kbic65-rescue:D_Small-Device D_I1
 U 1 1 5FCED5EF
 P 20650 5350
 F 0 "D_I1" H 20650 5450 50  0000 R CNN
@@ -450,7 +450,7 @@ F 3 "" H 22775 4025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Hyphen1
+L kbic65-rescue:D_Small-Device D_Hyphen1
 U 1 1 5FCEE646
 P 23650 4100
 F 0 "D_Hyphen1" H 23650 4200 50  0000 R CNN
@@ -472,7 +472,7 @@ F 3 "" H 22775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_LBKT1
+L kbic65-rescue:D_Small-Device D_LBKT1
 U 1 1 5FCEE660
 P 23650 5350
 F 0 "D_LBKT1" H 23650 5450 50  0000 R CNN
@@ -494,7 +494,7 @@ F 3 "" H 21775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_P1
+L kbic65-rescue:D_Small-Device D_P1
 U 1 1 5FCEE66D
 P 22650 5350
 F 0 "D_P1" H 22650 5450 50  0000 R CNN
@@ -516,7 +516,7 @@ F 3 "" H 24775 4025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_BkSp1
+L kbic65-rescue:D_Small-Device D_BkSp1
 U 1 1 5FCF0179
 P 25650 4100
 F 0 "D_BkSp1" H 25650 4200 50  0000 R CNN
@@ -538,7 +538,7 @@ F 3 "" H 24775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_BKSLSH1
+L kbic65-rescue:D_Small-Device D_BKSLSH1
 U 1 1 5FCF0193
 P 25650 5350
 F 0 "D_BKSLSH1" H 25650 5450 50  0000 R CNN
@@ -560,7 +560,7 @@ F 3 "" H 23775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_RBKT1
+L kbic65-rescue:D_Small-Device D_RBKT1
 U 1 1 5FCF01A0
 P 24650 5350
 F 0 "D_RBKT1" H 24650 5450 50  0000 R CNN
@@ -594,7 +594,7 @@ F 3 "" H 14775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_D1
+L kbic65-rescue:D_Small-Device D_D1
 U 1 1 5FE8C680
 P 15650 6750
 F 0 "D_D1" H 15650 6850 50  0000 R CNN
@@ -616,7 +616,7 @@ F 3 "" H 13775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_S1
+L kbic65-rescue:D_Small-Device D_S1
 U 1 1 5FE8C68D
 P 14650 6750
 F 0 "D_S1" H 14650 6850 50  0000 R CNN
@@ -638,7 +638,7 @@ F 3 "" H 14775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_X1
+L kbic65-rescue:D_Small-Device D_X1
 U 1 1 5FE8C69A
 P 15650 8200
 F 0 "D_X1" H 15650 8300 50  0000 R CNN
@@ -660,7 +660,7 @@ F 3 "" H 13775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Z1
+L kbic65-rescue:D_Small-Device D_Z1
 U 1 1 5FE8C6A7
 P 14650 8200
 F 0 "D_Z1" H 14650 8300 50  0000 R CNN
@@ -682,7 +682,7 @@ F 3 "" H 16775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_G1
+L kbic65-rescue:D_Small-Device D_G1
 U 1 1 5FE8C6B4
 P 17650 6750
 F 0 "D_G1" H 17650 6850 50  0000 R CNN
@@ -704,7 +704,7 @@ F 3 "" H 15775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_F1
+L kbic65-rescue:D_Small-Device D_F1
 U 1 1 5FE8C6C1
 P 16650 6750
 F 0 "D_F1" H 16650 6850 50  0000 R CNN
@@ -726,7 +726,7 @@ F 3 "" H 16775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_V1
+L kbic65-rescue:D_Small-Device D_V1
 U 1 1 5FE8C6CE
 P 17650 8200
 F 0 "D_V1" H 17650 8300 50  0000 R CNN
@@ -748,7 +748,7 @@ F 3 "" H 15775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_C1
+L kbic65-rescue:D_Small-Device D_C1
 U 1 1 5FE8C6DB
 P 16650 8200
 F 0 "D_C1" H 16650 8300 50  0000 R CNN
@@ -770,7 +770,7 @@ F 3 "" H 18775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_J1
+L kbic65-rescue:D_Small-Device D_J1
 U 1 1 5FE8C6E8
 P 19650 6750
 F 0 "D_J1" H 19650 6850 50  0000 R CNN
@@ -792,7 +792,7 @@ F 3 "" H 17775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_H1
+L kbic65-rescue:D_Small-Device D_H1
 U 1 1 5FE8C6F5
 P 18650 6750
 F 0 "D_H1" H 18650 6850 50  0000 R CNN
@@ -814,7 +814,7 @@ F 3 "" H 18775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_N1
+L kbic65-rescue:D_Small-Device D_N1
 U 1 1 5FE8C702
 P 19650 8200
 F 0 "D_N1" H 19650 8300 50  0000 R CNN
@@ -836,7 +836,7 @@ F 3 "" H 17775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_B1
+L kbic65-rescue:D_Small-Device D_B1
 U 1 1 5FE8C70F
 P 18650 8200
 F 0 "D_B1" H 18650 8300 50  0000 R CNN
@@ -858,7 +858,7 @@ F 3 "" H 20775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_L1
+L kbic65-rescue:D_Small-Device D_L1
 U 1 1 5FE8C71C
 P 21650 6750
 F 0 "D_L1" H 21650 6850 50  0000 R CNN
@@ -880,7 +880,7 @@ F 3 "" H 19775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_K1
+L kbic65-rescue:D_Small-Device D_K1
 U 1 1 5FE8C729
 P 20650 6750
 F 0 "D_K1" H 20650 6850 50  0000 R CNN
@@ -902,7 +902,7 @@ F 3 "" H 20775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Comma1
+L kbic65-rescue:D_Small-Device D_Comma1
 U 1 1 5FE8C736
 P 21650 8200
 F 0 "D_Comma1" H 21650 8300 50  0000 R CNN
@@ -924,7 +924,7 @@ F 3 "" H 19775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_M1
+L kbic65-rescue:D_Small-Device D_M1
 U 1 1 5FE8C743
 P 20650 8200
 F 0 "D_M1" H 20650 8300 50  0000 R CNN
@@ -946,7 +946,7 @@ F 3 "" H 22775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_@1
+L kbic65-rescue:D_Small-Device D_@1
 U 1 1 5FE8C750
 P 23650 6750
 F 0 "D_@1" H 23650 6850 50  0000 R CNN
@@ -968,7 +968,7 @@ F 3 "" H 21775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_SemiCol1
+L kbic65-rescue:D_Small-Device D_SemiCol1
 U 1 1 5FE8C75D
 P 22650 6750
 F 0 "D_SemiCol1" H 22650 6850 50  0000 R CNN
@@ -990,7 +990,7 @@ F 3 "" H 22775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_FwdSlsh1
+L kbic65-rescue:D_Small-Device D_FwdSlsh1
 U 1 1 5FE8C76A
 P 23650 8200
 F 0 "D_FwdSlsh1" H 23650 8300 50  0000 R CNN
@@ -1012,7 +1012,7 @@ F 3 "" H 21775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Dot1
+L kbic65-rescue:D_Small-Device D_Dot1
 U 1 1 5FE8C777
 P 22650 8200
 F 0 "D_Dot1" H 22650 8300 50  0000 R CNN
@@ -1034,7 +1034,7 @@ F 3 "" H 23775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Enter1
+L kbic65-rescue:D_Small-Device D_Enter1
 U 1 1 5FE8C791
 P 24650 6750
 F 0 "D_Enter1" H 24650 6850 50  0000 R CNN
@@ -1056,7 +1056,7 @@ F 3 "" H 25775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Up1
+L kbic65-rescue:D_Small-Device D_Up1
 U 1 1 5FE8C79E
 P 26650 8200
 F 0 "D_Up1" H 26650 8300 50  0000 R CNN
@@ -1078,7 +1078,7 @@ F 3 "" H 23775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_RShift1
+L kbic65-rescue:D_Small-Device D_RShift1
 U 1 1 5FE8C7AB
 P 24650 8200
 F 0 "D_RShift1" H 24650 8300 50  0000 R CNN
@@ -1100,7 +1100,7 @@ F 3 "" H 12775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_LWin1
+L kbic65-rescue:D_Small-Device D_LWin1
 U 1 1 5FEAB45B
 P 13650 10100
 F 0 "D_LWin1" H 13650 10200 50  0000 R CNN
@@ -1122,7 +1122,7 @@ F 3 "" H 13775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_LAlt1
+L kbic65-rescue:D_Small-Device D_LAlt1
 U 1 1 5FEAB468
 P 14650 10100
 F 0 "D_LAlt1" H 14650 10200 50  0000 R CNN
@@ -1144,7 +1144,7 @@ F 3 "" H 17775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Space1
+L kbic65-rescue:D_Small-Device D_Space1
 U 1 1 5FEAB475
 P 18650 10100
 F 0 "D_Space1" H 18650 10200 50  0000 R CNN
@@ -1166,7 +1166,7 @@ F 3 "" H 21775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_RAlt1
+L kbic65-rescue:D_Small-Device D_RAlt1
 U 1 1 5FEAB482
 P 22650 10100
 F 0 "D_RAlt1" H 22650 10200 50  0000 R CNN
@@ -1188,7 +1188,7 @@ F 3 "" H 22775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_RWin1
+L kbic65-rescue:D_Small-Device D_RWin1
 U 1 1 5FEAB48F
 P 23650 10100
 F 0 "D_RWin1" H 23650 10200 50  0000 R CNN
@@ -1210,7 +1210,7 @@ F 3 "" H 23775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_RCtrl1
+L kbic65-rescue:D_Small-Device D_RCtrl1
 U 1 1 5FEAB49C
 P 24650 10100
 F 0 "D_RCtrl1" H 24650 10200 50  0000 R CNN
@@ -1232,7 +1232,7 @@ F 3 "" H 24775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Left1
+L kbic65-rescue:D_Small-Device D_Left1
 U 1 1 5FEAB4A9
 P 25650 10100
 F 0 "D_Left1" H 25650 10200 50  0000 R CNN
@@ -1243,7 +1243,7 @@ F 3 "~" V 25650 10100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_E1
+L kbic65-rescue:D_Small-Device D_E1
 U 1 1 5FCE9492
 P 15650 5350
 F 0 "D_E1" H 15650 5450 50  0000 R CNN
@@ -1254,7 +1254,7 @@ F 3 "~" V 15650 5350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_Equal1
+L kbic65-rescue:D_Small-Device D_Equal1
 U 1 1 5FCF0186
 P 24650 4100
 F 0 "D_Equal1" H 24650 4200 50  0000 R CNN
@@ -1265,7 +1265,7 @@ F 3 "~" V 24650 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_0
+L kbic65-rescue:D_Small-Device D_0
 U 1 1 5FCEE653
 P 22650 4100
 F 0 "D_0" H 22650 4200 50  0000 R CNN
@@ -1276,7 +1276,7 @@ F 3 "~" V 22650 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_8
+L kbic65-rescue:D_Small-Device D_8
 U 1 1 5FCED5D5
 P 20650 4100
 F 0 "D_8" H 20650 4200 50  0000 R CNN
@@ -1287,7 +1287,7 @@ F 3 "~" V 20650 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_6
+L kbic65-rescue:D_Small-Device D_6
 U 1 1 5FCEBE37
 P 18650 4100
 F 0 "D_6" H 18650 4200 50  0000 R CNN
@@ -1298,7 +1298,7 @@ F 3 "~" V 18650 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_4
+L kbic65-rescue:D_Small-Device D_4
 U 1 1 5FCEAB4C
 P 16650 4100
 F 0 "D_4" H 16650 4200 50  0000 R CNN
@@ -1309,7 +1309,7 @@ F 3 "~" V 16650 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_2
+L kbic65-rescue:D_Small-Device D_2
 U 1 1 5FCE9485
 P 14650 4100
 F 0 "D_2" H 14650 4200 50  0000 R CNN
@@ -1494,7 +1494,7 @@ F 3 "" H 25975 4025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_BkSp2
+L kbic65-rescue:D_Small-Device D_BkSp2
 U 1 1 5FCF20E1
 P 26850 4100
 F 0 "D_BkSp2" H 26850 4200 50  0000 R CNN
@@ -1505,7 +1505,7 @@ F 3 "~" V 26850 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D_Down1
+L kbic65-rescue:D_Small-Device D_Down1
 U 1 1 5FE8C7DF
 P 26650 10100
 F 0 "D_Down1" H 26650 10200 50  0000 R CNN
@@ -1529,7 +1529,7 @@ $EndComp
 Wire Wire Line
 	27450 10200 27550 10200
 $Comp
-L Device:D_Small D_Right1
+L kbic65-rescue:D_Small-Device D_Right1
 U 1 1 5FE8C7D2
 P 27650 10100
 F 0 "D_Right1" H 27650 10200 50  0000 R CNN
@@ -1551,7 +1551,7 @@ F 3 "" H 26775 10025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_PgDn1
+L kbic65-rescue:D_Small-Device D_PgDn1
 U 1 1 5FE8C7C5
 P 27650 8200
 F 0 "D_PgDn1" H 27650 8300 50  0000 R CNN
@@ -1573,7 +1573,7 @@ F 3 "" H 26775 8125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_PgUp1
+L kbic65-rescue:D_Small-Device D_PgUp1
 U 1 1 5FE8C7B8
 P 27650 6750
 F 0 "D_PgUp1" H 27650 6850 50  0000 R CNN
@@ -1595,7 +1595,7 @@ F 3 "" H 26775 6675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Del1
+L kbic65-rescue:D_Small-Device D_Del1
 U 1 1 5FCF20FB
 P 27650 5350
 F 0 "D_Del1" H 27650 5450 50  0000 R CNN
@@ -1617,7 +1617,7 @@ F 3 "" H 26775 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_Tilde1
+L kbic65-rescue:D_Small-Device D_Tilde1
 U 1 1 5FCF20D4
 P 27650 4100
 F 0 "D_Tilde1" H 27650 4200 50  0000 R CNN
@@ -1639,7 +1639,7 @@ F 3 "" H 26775 4025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D_7
+L kbic65-rescue:D_Small-Device D_7
 U 1 1 5FCEBE2A
 P 19650 4100
 F 0 "D_7" H 19650 4200 50  0000 R CNN
@@ -1774,7 +1774,7 @@ $EndComp
 Wire Wire Line
 	12750 3700 12750 4200
 $Comp
-L Device:D_Small D_Esc1
+L kbic65-rescue:D_Small-Device D_Esc1
 U 1 1 5FCDA080
 P 12650 4100
 F 0 "D_Esc1" H 12650 4200 50  0000 R CNN
@@ -2715,7 +2715,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 4750 12350 4750
 $Comp
-L power:GNDREF #PWR0101
+L kbic65-rescue:GNDREF-power #PWR0101
 U 1 1 602F2C7C
 P 8900 5250
 F 0 "#PWR0101" H 8900 5000 50  0001 C CNN
