@@ -17,26 +17,36 @@
 
 # Layout options
 
-![image info](./img/layout-options.svg)
+<img src="./img/layout-options.svg">
 
 # Current State
-PCBs have been ordered from JLCPCB!
+Have built everything except for the top acrylic window.
+
+<img src="./img/build_log/20210407_234048.jpg">
 
 ## PCB Front
 
-![image info](./img/state_of_the_pcb_20210219.png)
+<img src="./img/state_of_the_pcb_20210219.png" height="240">
+<img src="./img\build_log\20210331_194110.jpg" height="240">
+
 
 ## Plate
 
-![image info](./img/top_plate_20210219.png)
+<img src="./img/top_plate_20210219.png" height="240">
+<img src="./img\build_log\20210331_193800.jpg" height="240">
+
 
 ## Bottom Option 1 (PCB Front)
 
-![image info](./img/bottom_front_20210323.png)
+<img src="./img/bottom_front_20210323.png" height="240">
+<img src="./img\build_log\20210331_193819.jpg" height="240">
+
 
 ## Bottom Option 2 (PCB Back)
 
-![image info](./img/bottom_back_20210323.png)
+<img src="./img/bottom_back_20210323.png" height="240">
+<img src="./img\build_log\20210331_193831.jpg" height="240">
+
 
 # Making dithered PCB art for KiCad
 When I decided to make an alternative design for the bottom I eventually settled on trying my hand at a dithered image. This was a little trickier than I expected to get looking like I wanted (and still not sure how the end result will appear).
@@ -59,6 +69,9 @@ But generally here is the workflow I used in the end, and would recommend
 <img src="./img/sun/kicad_footprint.png" width="600">
 
 - Iterate, I played a lot with different dithering tools, changing the image histogram etc. The bitmap2component tool does not import dithered image exactly but blends pixels together, therefore I would recommend generating a few variants and comparing them in KiCad and possibly the 3D viewer. Please note that these images requires quite a bit of processing from KiCad. Updating the 3D view especially, which took about 1-2 min for me.
+
+- Final result after ordering from JLCPCB with black solder mask and ENIG finish
+<img src="./img\build_log\20210331_193359.jpg" width="800">
 
 # Comparison to similar keyboards
 
