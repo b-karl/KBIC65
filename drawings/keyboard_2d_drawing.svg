@@ -66,7 +66,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -13283,7 +13283,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="WindowSmall"
-     style="display:inline">
+     style="display:none">
     <path
        id="path4717"
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.756;stroke-miterlimit:4;stroke-dasharray:none"
