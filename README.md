@@ -30,26 +30,26 @@ Have built everything except for the top acrylic window.
 
 ## PCB Front
 
-<img src="./img/state_of_the_pcb_20210219.png" height="180">
-<img src="./img\build_log\20210331_194110.jpg" height="180">
+<img src="./img/state_of_the_pcb_20210219.png" width="600">
+<img src="./img\build_log\20210331_194110.jpg" width="600">
 
 
 ## Plate
 
-<img src="./img/top_plate_20210219.png" height="170">
-<img src="./img\build_log\20210331_193800.jpg" height="170">
+<img src="./img/top_plate_20210219.png" width="600">
+<img src="./img\build_log\20210331_193800.jpg" width="600">
 
 
 ## Bottom Option 1 (PCB Front)
 
-<img src="./img/bottom_front_20210323.png" height="180">
-<img src="./img\build_log\20210331_193819.jpg" height="180">
+<img src="./img/bottom_front_20210323.png" width="600">
+<img src="./img\build_log\20210331_193819.jpg" width="600">
 
 
 ## Bottom Option 2 (PCB Back)
 
-<img src="./img/bottom_back_20210323.png" height="180">
-<img src="./img\build_log\20210331_193831.jpg" height="180">
+<img src="./img/bottom_back_20210323.png" width="600">
+<img src="./img\build_log\20210331_193831.jpg" width="600">
 
 
 # Making dithered PCB art for KiCad
@@ -83,8 +83,8 @@ But generally here is the workflow I used in the end, and would recommend
 The [Discipline65](https://github.com/coseyfannitutti/discipline) is the original inspiration for this keyboard, along with the case making community that has been born around it. In the spirit of CFTKB the board design will also be open source.
 
 Some of the main differences
-- KBIC65 will use a dedicated ProMicro footprint instead of all the THT components in the Discipline65, a believe this makes the board more easy to upgrade at the cost of losing some of the THT aesthethic.
-- The layers in the Discipline FR4 kit have the same outer dimension (expluding the top part of the plate), which is nice for a pure FR4-style keyboard but creates some limitations if one wants to create a case for it. The KBIC65 will have a minimal PCB given the layout (on the left, bottom and right sides) and a plate with overhang allowing for various types of plate-mounted case designs.
+- KBIC65 will use a dedicated ProMicro footprint instead of all the THT components in the Discipline65, a believe this makes the board more easy to upgrade at the cost of losing some of the THT aesthetic.
+- The layers in the Discipline FR4 kit have the same outer dimension (excluding the top part of the plate), which is nice for a pure FR4-style keyboard but creates some limitations if one wants to create a case for it. The KBIC65 will have a minimal PCB given the layout (on the left, bottom and right sides) and a plate with overhang allowing for various types of plate-mounted case designs.
 - The PCB will have holes large enough to fit M2 spacers between THT row and the layout. This allows the FR4 kit-style assembly to have the PCB completely free-floating and only the switch plate connecting directly to the bottom plate.
 
 ## Nibble65
@@ -92,9 +92,16 @@ The [Nibble65](https://nullbits.co/nibble/) is another board inspired by the Dis
 
 Some differences
 - The Nibble65 has similar limitations to the Discipline65 in terms of case design compatibility
-- The Nibble65 uses multiplexers (I believe) to keep the PCB wiring simple and to add a bit to the THT aesthethic. The KBIC65 uses an efficient wiring matrix allowing for a full 65%/70 key layout without additional components.
+- The Nibble65 uses multiplexers (I believe) to keep the PCB wiring simple and to add a bit to the THT aesthetic. The KBIC65 uses an efficient wiring matrix allowing for a full 65%/70 key layout without additional components.
 - The Nibble65 has an extra column to the left, housing a ProMicro-footprint, some extra keys as well as a multi-purpose section for either rotary encodes, giant LED or an OLED screen.
 
+# Possible future work
+- Non-metal case
+- Solar cell trickle charging panel instead of window.
+- Remove unintended silk screen from front PCB glasses
+- Add holes for mounting a battery connector
+- Move JLCPCB production number location (or get it removed in production)
+- Change battery to something slightly thinner, sub-5 mm, but could be wider and longer than the current battery
 
 # FAQ
 
@@ -124,12 +131,12 @@ A great take on the THT and would be my choice to buy if I didn't want to make s
 
 - [RMI-KB Herringbone75](https://rmi-kb.com/herringbone/): A fun variant on the Mysterium 75.
 
-- [u/emdarcher Lattice 60%](https://keyhive.xyz/shop/lattice): Definintiely contender for most innovative diode placement among THT keyboards
+- [u/emdarcher Lattice 60%](https://keyhive.xyz/shop/lattice): Definitely contender for most innovative diode placement among THT keyboards
 
 - [theksmith Discipline65](https://theksmith.com/hardware/designing-building-custom-mechanical-keyboard-2020/): Honorable mention on Discipline65 case design
 
 - [4Bar60 by u/struct_Nodes](https://www.reddit.com/r/MechanicalKeyboards/comments/kyjpx3/my_girlfriend_surprised_me_with_a_breakup_before/)
-I found this keyboard in the middle of my PCB design but it is very similar to my intended design, expcept being a 60% of course.
+I found this keyboard in the middle of my PCB design but it is very similar to my intended design, except being a 60% of course.
 
 - [WorldspawnsKeebs Houndstooth](https://www.etsy.com/uk/listing/717316405/houndstooth-kit-does-not-include?show_sold_out_detail=1&ref=nla_listing_details)
 A split ortholinear 4x6 with a nice take on a clear case
@@ -138,4 +145,4 @@ A split ortholinear 4x6 with a nice take on a clear case
 Great case for a THT kit and very interesting with side windows instead of placed above the key layout. Inspiration for moving the ProMicro footprint and diode row up 1/4 units to allow top case to have a divider between main layout and THT window.
 
 - [EBastler Isometria75](https://github.com/ebastler/isometria-75)
-Makes me want to try to change the keyspacing on my keyboard, but I am unfortunately not brave enough.
+Makes me want to try to change the key spacing on my keyboard, but I am unfortunately not brave enough.
