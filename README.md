@@ -1,5 +1,5 @@
 # KBIC65
-65% keyboard PCB with ProMicro footprint.
+65% keyboard PCB with ProMicro footprint. Inspired by soldering and tinkering in my grandfather's workshop as a child and have named it with our combined initials KB and IC.
 
 # Main features/focus
 - Intended to be portable and wireless, but with a through-hole technology (THT) style
@@ -12,8 +12,12 @@
 
 - Partial copper coverage on top of PCB and no copper on bottom or switch plates to improve Bluetooth signal
 - Plate mounted with screws, the PCB contains drilled holes large enough to fit M2 spacers. I.e. the PCB is only connected to the plate via the switches.
-- Tried to avoid vias (but have one)
+- Tried to avoid vias, but have one (that I probably could have skipped)
 - Since the bottom is symmetrical, there are two alternative design two choose from
+
+# Build log
+
+You can find my [build log here](build_log.md).
 
 # Layout options
 
@@ -26,26 +30,26 @@ Have built everything except for the top acrylic window.
 
 ## PCB Front
 
-<img src="./img/state_of_the_pcb_20210219.png" height="240">
-<img src="./img\build_log\20210331_194110.jpg" height="240">
+<img src="./img/state_of_the_pcb_20210219.png" height="180">
+<img src="./img\build_log\20210331_194110.jpg" height="180">
 
 
 ## Plate
 
-<img src="./img/top_plate_20210219.png" height="240">
-<img src="./img\build_log\20210331_193800.jpg" height="240">
+<img src="./img/top_plate_20210219.png" height="170">
+<img src="./img\build_log\20210331_193800.jpg" height="170">
 
 
 ## Bottom Option 1 (PCB Front)
 
-<img src="./img/bottom_front_20210323.png" height="240">
-<img src="./img\build_log\20210331_193819.jpg" height="240">
+<img src="./img/bottom_front_20210323.png" height="180">
+<img src="./img\build_log\20210331_193819.jpg" height="180">
 
 
 ## Bottom Option 2 (PCB Back)
 
-<img src="./img/bottom_back_20210323.png" height="240">
-<img src="./img\build_log\20210331_193831.jpg" height="240">
+<img src="./img/bottom_back_20210323.png" height="180">
+<img src="./img\build_log\20210331_193831.jpg" height="180">
 
 
 # Making dithered PCB art for KiCad
@@ -53,9 +57,9 @@ When I decided to make an alternative design for the bottom I eventually settled
 
 But generally here is the workflow I used in the end, and would recommend
 - Settle on an image to use, crop it to only the part you want to place on the PCB. I settled on a NASA SDO image.
-<img src="./img/sun/color_4k.png" width="1000">
+<img src="./img/sun/color_4k.png" width="600">
 
-- JLCPCB and probably other PCB manufacturers can print at a resolution of about 0.15 mm which is equivalent to about 169 DPI. This means you should try to use 169 DPI or less, I used 169 DPI. Resize your image so that the resolution of the image at your selected DPI gives you the size you want on the board. I wanted my sun to be approx 90 mm high so I resized to 600px high, which results in an image 90.2 mm high at 169 DPI.
+- JLCPCB and probably other PCB manufacturers can print at a resolution of about 0.15 mm which is equivalent to about 169 DPI. This means you should try to use 169 DPI or less, I used 169 DPI. Resize your image so that the resolution of the image at your selected DPI gives you the size you want on the board. I wanted my sun to be approx 90 mm high so I resized to 600px high, which results in an image 90.2 mm high at 169 DPI. 
 <img src="./img/sun/grayscale_600.png" width="600">
 
 - Use a dithering tool to dither your image and create a dithered copy. I strongly recommend [Ditherlicious](https://29a.ch/ditherlicious/) but you can look around for other tools you have handy.

@@ -16,7 +16,7 @@ Overview of build steps
 - Prepare and attach stabilizers
     - Stabilizer foam / band-aid mod
     - Clipping (not necessary)
-    - Crimp tube mod (reverted after testing)
+    - shrink tube mod (reverted after testing)
     - Lube
     - Attach stabilizers
 - Assemble plate-PCB package
@@ -69,7 +69,7 @@ Doing some research on how to dampen the sound of the keyboard (since I want to 
 - Put the keyboard on a soft desk mat.
 - Fill up hollow spaces in the keyboard with foam, rubber or some other material. Foam makes most sense usually since it probably has the least impact on the flexibility and motion of the plate and thus the give with each keystroke.
 - Use a softer plate material, aluminum is usually considered OK among metal but brass and steel might cause ping sounds.
-- Band-aid mod stabilizers and possibly crimp tube mod them.
+- Band-aid mod stabilizers and possibly shrink tube mod them.
 - Lube stabilizers
 - Lube switches
 
@@ -100,13 +100,100 @@ To get the PCB up and running required two general steps
 - Attach the nice!nano (which I did by socketing it so I can remove it easily if I want).
 - Solder in diodes for all switches.
 
+This is essentially just a bunch of soldering and ended up like this for me:
+<img src="img\build_log\20210405_002633.jpg">
+
+The tricky part, compared to soldering switches is that these joints are very visible and since the are on one long line, any inconsistencies show easily. I initially tried bending multiple diodes together when they where still in their package tape but I don't think it really worked better than just bending them one by one with my hands. This was also partially due to the footprint I selected for the diode essentially requiring the diode legs to be bent as close to the diode as possible.
+
+One thing I would be more careful about if I did it again would be to try to be consistent with the amount of solder I used and the amount of time I spent heating up the solder and components. One of the aesthetic issues with the final result is that the solder came through from the back of the board and filled part of the front for several diodes, but not all, and this is probably the inconsistency that bothers me the most.
 
 # Prepare and attach stabilizers
 
+For stabilizers I got [Durock screw-in stabilizers v2](https://keygem.store/products/durock-screw-in-stablizer-v2-set?_pos=4&_sid=b89e1c812&_ss=r) with transparent plastic and brass/golden metal details. It was the stabs I could find that I think would go best with the rest of my build (black, white and gold).
+
+## 6u stabilizer
+For my first build with this PCB I wanted to use a 6u space bar to allow for a 1.25u Right Alt, which is heavily used when typing with a Swedish (or any ISO) layout. I knew they aren't that common, but luckily the ePBT 9009 kit I got for this keyboard has multiple 6u space bars to choose from. However, later when buying stabilizers I found out that 6u stabilizers are probably even more rare, especially if you want them looking a certain way. Doing a bit of research, the best course of action seemed to bend another stabilizer wire (or some other metal wire) to the correct length. Luckily, my Durock stabilizer set came with a 7u stabilizer wire that I have no plan on using so I took some pliers and a small vice and bent it to the correct size. I had to iterate once, my first bend made the wire slightly too long and it put some unwanted pressure when in stabilizer mount but lucky enough I was able to re-bend it to a good size. 
+
+## Clipping
+The Durock stabilizers are designed to not require clipping so did not have to do this step.
+
+## Stabilizer foam/ band-aid mod
+Instead of doing the actual band-aid mod I was lazy and picked up some [KBDfans stabilizer foam stickers](https://kbdfans.com/products/kbdfans-stabilizers-foam-sticker=) when ordering some other stuff.
+
+<img src="img\build_log\20210405_204057.jpg">
+<img src="img\build_log\20210405_204042.jpg">
+
+## Shrink tube mod (failed/removed)
+I had some shrink tube laying around that I thought I could try doing the [shrink tube mod](https://rama.works/guides#/silencing-stabilisers/) with. However, I think the shrink tube might have been too big or maybe it doesn't work as well with the Durock v2 stabilizers, but the stabilizers ended up sticking and being sluggish so I decided to remove them instead.
+
+## Lube
+Used Krytox 205g0 to lube the switches since it was the best thing I had available at home.
+
+## Attaching
+After adding the stabilizers and beginning to solder in the first switches I discovered that some of the plate foam I had put it was pressing on the stabilizers, both on the screws (making )
+
+<img src="img\build_log\20210407_203201.jpg">
+<img src="img\build_log\20210407_203217.jpg">
+
 # Assemble plate-PCB package
+The next step was to put together the plate, prepared PCB and all the switches. My choice of switch for this build was the [Gazzew Boba U4](https://splitkb.com/products/gazzew-boba-u4-silent-tactile-switch), a silent and very tactile switch, which I am very satisfied with (since I am using them to type out this build log).
+
+This is pretty well covered in any build log or video, but a good trick is to start with attaching the corner switches. I then also soldered in the switches for keys with stabilizers since I wanted to make sure those keys felt okay before I continued (in case I had to remove all switches and modify the stabilizers, which I did do once).
+
+<img src="img\build_log\20210407_205555.jpg">
+
+Once you have the corners in place, it is fairly easy to attach and solder multiple switches at ones, I did them row by row, and you end up with a plate-PCB package with switches. Almost a full keyboard now!
+
+<img src="img\build_log\20210407_215413.jpg">
+
+# Test without battery
+Just to make sure I didn't fuck anything up I went back to the computer and made sure the assembled package worked before moving on to attaching the battery.
+
+# Attaching the battery
+This was the part of the build I was the least sure of how I was going to do. I had bought a [130 mAh LiPo battery](https://www.electrokit.com/produkt/batteri-lipo-3-7v-130mah/), since I had trouble finding the slightly smaller 301230 110 mAh battery in Sweden that is [recommended when mounting it under a socketed nice!nano](https://nicekeyboards.com/docs/nice-nano/). I was, however, able to find a pretty good solution (in my opinion) since the space between the bottom and PCB ended up being 5 mm with my chosen spacers.
+
+I soldered on a connector with wires to the ground and VCC pins on the back of the PCB and routed so that I could place the battery in the areas with no soldered components with legs sticking down.
+
+<img src="img\build_log\20210407_224000.jpg">
+
+I then made a cut out in the neoprene to house the battery.
+
+<img src="img\build_log\20210407_230048.jpg">
+
+Unfortunately I forgot to take a photo with the actual battery in place as well. I added a small piece of double sided tape on the side of the battery to keep it in place.
+
+# Test again, now with battery, and Bluetooth!
+Damn, did it feel good when I paired the keyboard with my desktop and was writing on my own designed wireless keyboard. So cool!
 
 # Assemble complete keyboard
+This step is pretty simple, stack all the pieces you have together now and put on the final screws!
+
+<img src="img\build_log\20210407_231559.jpg">
 
 # Put on key caps
+So I got an ePBT 9009 kit for this, since my long term goal for this build is to also create a case and the idea is for it to have some 80s-90s computer vibes, like the 9009 color scheme. Also, I got the extra colored Win-key set, really love those and reminds me of using my grandfather's computers (who is also the inspiration for the glass design on the board) and want that aesthetic. Not complicated to put on keycaps, but now it is more easy to see my chosen layout. 
+
+<img src="img\build_log\20210407_234048.jpg">
 
 # Final testing
+Make sure everything works and feels like you expect it to, which it did! I had a worry that the right arrow key might hit the bottom right case screw when pressed down fully but luckily it just about fits without any modification, win! And now you can just enjoy your keyboard!
+
+Oh, wait...
+
+# Design and order the acrylic window for the top
+I am now currently waiting for the acrylic window for the top, wasn't sure what type of window to go with or if I should have gone straight to designing a case with a window. But I am anticipating my case design to take a while so decided to order a couple of variants of windows, which are now on the way.
+
+Also...
+
+# Notes if I ever make a V2 or if someone attempts a GB
+## PCB front glasses should be in copper
+I accidentally forgot to remove a silk screen version of the glasses on the front of the PCB, resulting in what should have been bare gold-ENIG finish copper glasses being white silk screen instead (with a tiny, almost indistinguishable copper margin around them).
+
+## Add holes for soldering on a battery connector
+I did not plan enough for attaching the battery and the design would have been neater if there were ports for soldering a battery connector directly.
+
+## Maybe make space bar cutouts in plate and/or PCB to house battery
+I originally had a plan to put the battery between the PCB and the plate. Unfortunately the battery I got was too thick (there are thinner ones though) but it could possibly have fit if I had more cutouts around the space bar and put the battery there. The current solutions is not that bad though and will allow me to put in a larger battery as long as it is at most 5 mm thick.
+
+## Move the JLCPCB manufacturing number on the bottom plate
+If you choose to have the sun image facing out on the bottom, the production number from JLCPCB will show upward on the edge of the bottom plate, would probably be better to put it on the side or top somewhere instead.
