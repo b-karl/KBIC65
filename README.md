@@ -1,6 +1,9 @@
 # KBIC65
 65% keyboard PCB with ProMicro footprint. Inspired by soldering and tinkering in my grandfather's workshop as a child and have named it with our combined initials KB and IC.
 
+<img src='img\photoshoot\desk_with_mouse_and_camera.jpg' width="600">
+<img src='img\photoshoot\full_keyboard_straight_above.jpg' width="600">
+
 # Main features/focus
 - Intended to be portable and wireless, but with a through-hole technology (THT) style
 - 65%/70 key layout with spaced arrow keys and right-side navigation row in the style of Satistifaction75 and many others. 
