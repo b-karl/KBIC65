@@ -180,10 +180,14 @@ Make sure everything works and feels like you expect it to, which it did! I had 
 
 Oh, wait...
 
-# Design and order the acrylic window for the top
-I am now currently waiting for the acrylic window for the top, wasn't sure what type of window to go with or if I should have gone straight to designing a case with a window. But I am anticipating my case design to take a while so decided to order a couple of variants of windows, which are now on the way.
+# Design and order an acrylic window for the top
+I wasn't sure how if I should use an acrylic window covering all eight screws on top or if the overlap would look weird so I created two versions. One covering all eight screws on the top part, and one version that only uses the four screw holes on the top of the bottom, which is a bit weaker structurally. I ordered both versions and in both 2 mm and 3 mm clear acrylic to test at home.
 
-Also...
+Turns out 2 mm acrylic is plenty strong with this amount of screws and without a case the eight screw mount version definitely looks better in my opinion. I do plan on designing a case for it and might use the four screw mount window pieces I now have left over as the window in that case. instead.
+
+And with the acrylic window on, version 1 of the KBIC65, aka Observer65, is finally complete!
+
+<img src="img\photoshoot\desk_with_mouse.jpg">
 
 # Notes if I ever make a V2 or if someone attempts a GB
 ## PCB front glasses should be in copper

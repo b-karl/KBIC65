@@ -1,22 +1,29 @@
-# KBIC65
-65% keyboard PCB with ProMicro footprint. Inspired by soldering and tinkering in my grandfather's workshop as a child and have named it with our combined initials KB and IC.
+# KBIC65 aka Observer65
+65% [mechanical keyboard](https://keyboard.university/100-courses/intro-to-mechanical-keyboards) with a [ProMicro](https://deskthority.net/wiki/Arduino_Pro_Micro) controller footprint. Repository contains [KiCad](https://www.kicad.org/) PCB design files and 2D drawings in SVG of PCB, bottom plate, switch plate and acrylic window. 
+
+The original name KBIC65 is inspired by soldering and tinkering in my grandfather's workshop as a child and have named it with our combined initials KB and IC. But having spent quite a bit of time on making PCB art for the bottom of the keyboard based on an image from the [NASA Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/13641), combined with the glasses, I think a more appropriate name is Observer65.
 
 <img src='img\photoshoot\desk_with_mouse_and_camera.jpg' width="600">
 <img src='img\photoshoot\full_keyboard_straight_above.jpg' width="600">
 
 # Main features/focus
-- Intended to be portable and wireless, but with a through-hole technology (THT) style
-- 65%/70 key layout with spaced arrow keys and right-side navigation row in the style of Satistifaction75 and many others. 
-- ProMicro footprint to allow upgrade of microcontroller, currently intended to be used with the nice!nano.
-- Designed to be mountable in both an open PCB-stack or in a plate-mounted case (to be designed)
-- 8x9 wiring duplex matrix requiring only 17 pins on a ProMicro compatible controller
+- Intended to be portable and wireless, but with a [through-hole technology (THT)](https://en.wikipedia.org/wiki/Through-hole_technology) style
+- 65%/70 key layout with spaced arrow keys and right-side navigation row in the style of [Satistifaction75](https://cannonkeys.com/collections/group-buy/products/gb-satisfaction-75-keyboard-round-2) and many others
+- ProMicro footprint to allow upgrade of the microcontroller, intended to be used with the [nice!nano](https://nicekeyboards.com/nice-nano/) and [ZMK](https://zmkfirmware.dev/) firmware for my personal build
+- Designed to be mountable in both an open PCB stack or in a plate-mounted case (not yet designed)
+- 8x9 wiring [duplex matrix](https://wiki.ai03.com/books/pcb-design/page/matrices-and-duplex-matrix) requiring only 17 pins on a ProMicro compatible controller
 
 # Some design choices
 
-- Partial copper coverage on top of PCB and no copper on bottom or switch plates to improve Bluetooth signal
+- Reduced copper coverage on top of PCB and bottom plate, and no copper switch plate to improve Bluetooth signal
 - Plate mounted with screws, the PCB contains drilled holes large enough to fit M2 spacers. I.e. the PCB is only connected to the plate via the switches.
 - Tried to avoid vias, but have one (that I probably could have skipped)
 - Since the bottom is symmetrical, there are two alternative design two choose from
+
+# Firmware
+I decided to use [ZMK](https://zmkfirmware.dev/) for my build of this keyboard. Compared to the most common open source mechanical keyboard firmware [QMK](https://docs.qmk.fm/#/), ZMK is tailored for wireless keyboards. The two main reasons you should care to use ZMK instead of a bluetooth QMK fork are (1) much better power efficiency, i.e. longer battery life, and (2) the most commonly used Bluetooth chip uses drivers that are not compatible with the QMK copyleft license.
+
+You can find my ZMK shield for the KBIC65 in [my ZMK config repository](https://github.com/b-karl/zmk-config).
 
 # Build log
 
@@ -26,10 +33,7 @@ You can find my [build log here](build_log.md).
 
 <img src="./img/layout-options.svg">
 
-# Current State
-Have built everything except for the top acrylic window.
-
-<img src="./img/build_log/20210407_234048.jpg">
+# Components
 
 ## PCB Front
 
@@ -62,7 +66,7 @@ But generally here is the workflow I used in the end, and would recommend
 - Settle on an image to use, crop it to only the part you want to place on the PCB. I settled on a NASA SDO image.
 <img src="./img/sun/color_4k.png" width="600">
 
-- JLCPCB and probably other PCB manufacturers can print at a resolution of about 0.15 mm which is equivalent to about 169 DPI. This means you should try to use 169 DPI or less, I used 169 DPI. Resize your image so that the resolution of the image at your selected DPI gives you the size you want on the board. I wanted my sun to be approx 90 mm high so I resized to 600px high, which results in an image 90.2 mm high at 169 DPI. 
+- JLCPCB and probably other PCB manufacturers can print at a resolution of about 0.15 mm which is equivalent to about 169 DPI. This means you should try to use 169 DPI or less, I used 169 DPI. Resize your image so that the resolution of the image at your selected DPI gives you the size you want on the board. I wanted my sun to be approximately 90 mm high so I resized to 600px high, which results in an image 90.2 mm high at 169 DPI. 
 <img src="./img/sun/grayscale_600.png" width="600">
 
 - Use a dithering tool to dither your image and create a dithered copy. I strongly recommend [Ditherlicious](https://29a.ch/ditherlicious/) but you can look around for other tools you have handy.
@@ -70,7 +74,7 @@ But generally here is the workflow I used in the end, and would recommend
 
 - Open your KiCad project and then open Convert Image, a.k.a. the bitmap2component tool.
 - Import your dithered image, select Negative if necessary, pick either Front Silk Screen or Front Solder Mask and enter your chosen DPI. Click export and put into a new folder that will become a new KiCad library for you.
-- In Pcbnew or your kicad project, open Preferences > Manage footprint libraries
+- In Pcbnew or your KiCad project, open Preferences > Manage footprint libraries
 - Add your new folder as a footprint library
 - Import your new PCB art footprint onto your PCB
 <img src="./img/sun/kicad_footprint.png" width="600">
@@ -100,7 +104,7 @@ Some differences
 
 # Possible future work
 - Non-metal case
-- Solar cell trickle charging panel instead of window.
+- Solar cell trickle charging panel instead of window
 - Remove unintended silk screen from front PCB glasses
 - Add holes for mounting a battery connector
 - Move JLCPCB production number location (or get it removed in production)
@@ -111,13 +115,16 @@ Some differences
 ### Why don't you just buy keyboard X? It is cheaper and simpler than designing this.
 I am doing this as a side project for fun, and the learning experience, and definitely not for profit.
 
-If you want a 65% keyboard with the THT aesthetic get a Discipline65. If you want a 65% for your nice!nano, get the Nibble65. If you just want something wireless, get a Keychron.
+If you want a 65% keyboard with the THT aesthetic get a [Discipline65](https://github.com/coseyfannitutti/discipline). If you want a 65% for your nice!nano, get the [Nibble65](https://nullbits.co/nibble/). If you just want something wireless but don't want to build it yourself, get a [Keychron](https://www.keychron.com/).
+
+### I really want to make one myself, can you please fix the remaining issues?
+Maybe, if you have some experience or willingness to learn, fork this repo and try to fix it yourself (and maybe do a PR on the end result). If you don't have the experience or know-how, send me a message so I know someone actually wants it and I will consider fixing it when I have time.
 
 ### This is just a rip-off of keyboard X. What gives?
 I am trying to make my own thing but the design is of course heavily inspired by other keyboards, especially THT kits. Some honorable mentions
 
 - [Nicell Dissatisfaction65](https://github.com/Nicell/Dissatisfaction-65)
-A very similar keyboard to what I am designing, by the creator of the nice!nano. This uses a lot of the "early" techniques for what I feel a wireless open-source firmware was in 2019-beginning of 2020 such as Adafruit Feather BLE with QMK, something that is much better done today with the nice!nano (and similar controllers) and the ZMK firmware.
+A very similar keyboard to what I am designing, by the creator of the nice!nano. This uses a lot of the "early" techniques for what I feel a wireless open-source firmware was in 2019-beginning of 2020 such as Adafruit Feather BLE with QMK, something that is much better done today with the nice!nano (and similar controllers) and the ZMK firmware. Nicell is the creator of the nice!nano and also very active in the ZMK project.
 
 - [CannonKeys Satisfaction75](https://ilumkb.com/blogs/news/satisfaction-75-r2)
 My original inspiration for the layout
