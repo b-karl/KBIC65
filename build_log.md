@@ -30,6 +30,26 @@ Overview of build steps
 - Enjoy!
 - Remember you were supposed to put on am acrylic window, order it and wait
 
+# Recommended components
+- 1 KBIC65 PCB
+- 1 KBIC65 bottom plate
+- 1 KBIC65 switch plate
+- 1 KBIC65 2 mm acrylic window
+- 1 [nice!nano](https://nicekeyboards.com/nice-nano/)
+- 70 [1N4148 diodes](https://en.wikipedia.org/wiki/1N4148_signal_diode)
+- 6 domed rubber feet
+- 24 M2 x 4 mm brass bolts
+- 8 M2 x 10 mm female-female brass standoffs
+- 4 M2 x 15 mm female-female brass standoffs
+- 4 M2 x 3 mm male-female brass standoffs
+- 70 MX-style switches
+
+Bolts and standoffs are most easily acquired via AliExpress, at least in Sweden where I am.
+
+And if you want to put in foam
+- 3-5 mm bottom-PCB foam or rubber (there is 3 mm clearance, 5 mm requires cutting out holes around pins sticking down). I used [3 mm neoprene](https://www.swedol.se/neoprengummipg-1001022.html) plus some leftover plate foam on the sides to seal it.
+- [Plate-PCB foam](https://kbdfans.com/collections/keyboard-foam/products/kbdfans-module-foam)
+
 # Prepare nice!nano
 I had been looking at how to create a custom wireless keyboard for a while. My initial research suggested using an Adafruit Feather BLE with QMK, such as the [Dissatisfaction65 by Nicell](https://github.com/Nicell/Dissatisfaction-65), but luckily just a few months earlier Nicell himself had created the nice!nano controller, which is a ProMicro footprint Arduino close with Bluetooth. Even better, I found there was a relatively new keyboard firmware project called [ZMK](https://zmkfirmware.dev/), that addressed a bunch of the issues that QMK has with wireless. The two primary issues resolved by ZMK is (1) more battery-efficient scanning algorithms to improve battery life and (2) a license that is compatible with the Bluetooth libraries since QMK is not legally compatible with the libraries required to run Bluetooth chips.
 

@@ -1,7 +1,7 @@
 # KBIC65 aka Observer65
-65% [mechanical keyboard](https://keyboard.university/100-courses/intro-to-mechanical-keyboards) with a [ProMicro](https://deskthority.net/wiki/Arduino_Pro_Micro) controller footprint. Repository contains [KiCad](https://www.kicad.org/) PCB design files and 2D drawings in SVG of PCB, bottom plate, switch plate and acrylic window. 
+65% [mechanical keyboard](https://keyboard.university/100-courses/intro-to-mechanical-keyboards) with a [ProMicro](https://deskthority.net/wiki/Arduino_Pro_Micro) controller footprint. Repository contains [KiCad](https://www.kicad.org/) PCB design files and 2D drawings in SVG of PCB, bottom plate, switch plate and acrylic window.
 
-The original name KBIC65 is inspired by soldering and tinkering in my grandfather's workshop as a child and have named it with our combined initials KB and IC. But having spent quite a bit of time on making PCB art for the bottom of the keyboard based on an image from the [NASA Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/13641), combined with the glasses, I think a more appropriate name is Observer65.
+Bottom of keyboard has two alternatives. A design with glassrims inspired by my grandfather's glasses and a dithered image of the sun from the [NASA Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/13641). Included below is also a [guide on creating dithered PCB art](#making-dithered-pcb-art-for-kicad).
 
 <img src='img\photoshoot\desk_with_mouse_and_camera.jpg' width="600">
 <img src='img\photoshoot\full_keyboard_straight_above.jpg' width="600">
@@ -111,6 +111,9 @@ Some differences
 - Change battery to something slightly thinner, sub-5 mm, but could be wider and longer than the current battery
 
 # FAQ
+
+### What does KBIC mean?
+The original name KBIC65 is inspired by soldering and tinkering in my grandfather's workshop as a child and have named it with our combined initials KB and IC. But having spent quite a bit of time on making PCB art for the bottom of the keyboard based on an image from the [NASA Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/13641) I am considering renaming it if I make anything more of it (or make a group buy at some point). I am open to name suggestions if you have one!
 
 ### Why don't you just buy keyboard X? It is cheaper and simpler than designing this.
 I am doing this as a side project for fun, and the learning experience, and definitely not for profit.
