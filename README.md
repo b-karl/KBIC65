@@ -1,4 +1,4 @@
-# KBIC65 aka Observer65
+# KBIC65
 65% [mechanical keyboard](https://keyboard.university/100-courses/intro-to-mechanical-keyboards) with a [ProMicro](https://deskthority.net/wiki/Arduino_Pro_Micro) controller footprint. Repository contains [KiCad](https://www.kicad.org/) PCB design files and 2D drawings in SVG of PCB, bottom plate, switch plate and acrylic window.
 
 Bottom of keyboard has two alternatives. A design with glassrims inspired by my grandfather's glasses and a dithered image of the sun from the [NASA Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/13641). Included below is also a [guide on creating dithered PCB art](#making-dithered-pcb-art-for-kicad).
