@@ -6,7 +6,7 @@ Bottom of keyboard has two alternatives. A design with glassrims inspired by my 
 <img src='img\photoshoot\desk_with_mouse_and_camera.jpg' width="600">
 <img src='img\photoshoot\full_keyboard_straight_above.jpg' width="600">
 
-[More photos](img\photoshoot\readme.md)
+[More photos](img/photoshoot/readme.md)
 
 # Main features/focus
 - Intended to be portable and wireless, but with a [through-hole technology (THT)](https://en.wikipedia.org/wiki/Through-hole_technology) style
