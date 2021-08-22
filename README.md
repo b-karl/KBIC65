@@ -27,6 +27,8 @@ I decided to use [ZMK](https://zmkfirmware.dev/) for my build of this keyboard. 
 
 You can find my ZMK shield for the KBIC65 in [my ZMK config repository](https://github.com/b-karl/zmk-config).
 
+If you want to use a non-wireless controller (like a ProMicro, Elite-C etc.), I have [created a QMK fork](https://github.com/b-karl/qmk_firmware/tree/add-kbic65-keyboard/keyboards/karlb/kbic65) that has been tested on the KBIC65 using an Elite-C rev 4.
+
 # Build log
 
 You can find my [build log here](build_log.md).
