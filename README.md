@@ -1,7 +1,7 @@
 # KBIC65
 A 65% [mechanical keyboard](https://keyboard.university/100-courses/intro-to-mechanical-keyboards) with a [ProMicro](https://deskthority.net/wiki/Arduino_Pro_Micro) controller footprint. Repository contains [KiCad](https://www.kicad.org/) PCB design files and 2D drawings in SVG of PCB, bottom plate, switch plate and acrylic window.
 
-Bottom of keyboard has two alternatives. A design with glassrims inspired by my grandfather's glasses and a dithered image of the sun from the [NASA Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/13641). Included below is also a [guide on creating dithered PCB art](#making-dithered-pcb-art-for-kicad).
+Bottom of keyboard has two alternatives. A design with glass rims inspired by my grandfather's glasses and a dithered image of the sun from the [NASA Solar Dynamics Observatory](https://svs.gsfc.nasa.gov/13641). Included below is also a [guide on creating dithered PCB art](#making-dithered-pcb-art-for-kicad).
 
 <img src='img\photoshoot\desk_with_mouse_and_camera.jpg' width="600">
 <img src='img\photoshoot\full_keyboard_straight_above.jpg' width="600">
@@ -22,16 +22,21 @@ Bottom of keyboard has two alternatives. A design with glassrims inspired by my 
 - Tried to avoid vias, but have one (that I probably could have skipped)
 - Since the bottom is symmetrical, there are two alternative design two choose from
 
+
+# How to create your own
+[See the v1.0 release](https://github.com/b-karl/KBIC65/releases/tag/v1.0.0) to find the files and list of parts to create your own. 
+- Gerber zip-files are used to order the PCB, bottom plate and top plate from a PCB manufacturer, I used [JLCPCB](https://jlcpcb.com/). 
+- The acrylic window can be ordered from any laser cutting firm working with acrylic, I live in Sweden and used [TechStation](https://techstation.se/en/). 
+- For keycaps, switches and ProMicro-compatible controller (possibly also diodes) use a keyboard company in your region, I got my keycaps from [KBDfans](https://kbdfans.com/), diodes from a local electronics supplier and the rest from [Splitkb](https://splitkb.com/).
+- Screws and stand-offs can be sourced from various places but are probably easiest to find on AliExpress.
+
+I do not have dedicated assembly instructions, but if you are comfortable soldering you can probably make do using [my build log](build_log.md).
 # Firmware
 I decided to use [ZMK](https://zmkfirmware.dev/) for my build of this keyboard. Compared to the most common open source mechanical keyboard firmware [QMK](https://docs.qmk.fm/#/), ZMK is tailored for wireless keyboards. The two main reasons you should care to use ZMK instead of a bluetooth QMK fork are (1) much better power efficiency, i.e. longer battery life, and (2) the most commonly used Bluetooth chip uses drivers that are not compatible with the QMK copyleft license.
 
 You can find my ZMK shield for the KBIC65 in [my ZMK config repository](https://github.com/b-karl/zmk-config).
 
 If you want to use a non-wireless controller (like a ProMicro, Elite-C etc.), I have [created a QMK fork](https://github.com/b-karl/qmk_firmware/tree/add-kbic65-keyboard/keyboards/karlb/kbic65) that has been tested on the KBIC65 using an Elite-C rev 4.
-
-# Build log
-
-You can find my [build log here](build_log.md).
 
 # Layout options
 
