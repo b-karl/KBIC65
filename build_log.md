@@ -221,3 +221,8 @@ I originally had a plan to put the battery between the PCB and the plate. Unfort
 
 ## Move the JLCPCB manufacturing number on the bottom plate
 If you choose to have the sun image facing out on the bottom, the production number from JLCPCB will show upward on the edge of the bottom plate, would probably be better to put it on the side or top somewhere instead.
+
+# Update August 2021
+I ordered new spacers and found that M2x15mm female-female and M2x3mm+4mm thread male-female spacers are a much better combo for the top window (reduces height different to 0.4mm, which is OK). In addition, Nicell released the [nice!nano v2.0](https://nicekeyboards.com/nice-nano) and [ZMK released a Zephyr update](https://zmk.dev/blog/2021/07/17/zephyr-2-5). Biggest difference is probably the nice!nano v2.0 but the combination has probably pushed my battery life using a 130 mAh LiPo battery to 2 months! Also, having used the keyboard for a while now, I just love the feel. I think the combination Boba U4 switches and the neoprene and foam filled FR4 stack just hits the spot for me.
+
+After a [request on GitHub](https://github.com/b-karl/KBIC65/issues/1) I have also [created a QMK fork for the KBIC65](https://github.com/b-karl/qmk_firmware/tree/add-kbic65-keyboard) that I have confirmed works using an Elite-C rev 4.
