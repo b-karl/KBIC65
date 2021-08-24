@@ -2,5 +2,5 @@
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Keebio-Parts.pretty)(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Alps_Hybrid.pretty)(options "")(descr ""))
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
-  (lib (name KBIC-Parts)(type KiCad)(uri ${KIPRJMOD}/KBIC-Parts.pretty)(options "")(descr ""))
+  (lib (name KBIC-Parts)(type KiCad)(uri C:/git/KBIC65/kicad/KBIC-Parts.pretty)(options "")(descr ""))
 )
