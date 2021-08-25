@@ -9,6 +9,12 @@ on:
     paths:
       - '**.sch'
       - '**.kicad_pcb'
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Workflow run name'
+        required: false
+        default: 'Manual test run'
 
 jobs:
   pcb:
