@@ -27,10 +27,11 @@ jobs:
         config: kicad/jlcpcb_gerbers.kibot.yml
       # optional - prefix to output defined in config
         dir: bottom_plate
+        schema: ''
       # optional - PCB design file
         board: 'kicad/bottom/*.kicad_pcb'
       # optional - verbose output info
-        verbose: 0
+        verbose: 1
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
