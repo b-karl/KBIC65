@@ -15,7 +15,9 @@ on:
         description: 'Workflow run name'
         required: false
         default: 'Manual test run'
-
+env:
+  CI: true
+  
 jobs:
   bottom_plate:
     runs-on: ubuntu-latest
