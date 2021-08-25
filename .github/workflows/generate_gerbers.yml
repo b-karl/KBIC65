@@ -26,9 +26,7 @@ jobs:
       # Required - kibot config file
         config: kicad/jlcpcb_gerbers.kibot.yml
       # optional - prefix to output defined in config
-        dir: docs
-      # optional - schematic file
-        schema: 'kicad/bottom/*.sch'
+        dir: bottom_plate
       # optional - PCB design file
         board: 'kicad/bottom/*.kicad_pcb'
       # optional - verbose output info
@@ -36,5 +34,27 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
-        name: docs
-        path: docs
+        name: bottom_plate
+        path: bottom_plate
+        
+  pcb:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nerdyscout/kicad-exports@v2.3.1
+      with:
+      # Required - kibot config file
+        config: kicad/jlcpcb_gerbers.kibot.yml
+      # optional - prefix to output defined in config
+        dir: pcb
+      # optional - schematic file
+        schema: 'kicad/pcb/*.sch'
+      # optional - PCB design file
+        board: 'kicad/pcb/*.kicad_pcb'
+      # optional - verbose output info
+        verbose: 0
+    - name: upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: pcb
+        path: pcb
