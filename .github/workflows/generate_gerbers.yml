@@ -17,20 +17,20 @@ on:
         default: 'Manual test run'
 
 jobs:
-  pcb:
+  bottom_plate:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: nerdyscout/kicad-exports@v2.3.1
       with:
       # Required - kibot config file
-        config: any.kibot.yaml
+        config: kicad/jlcpcb_gerbers.kibot.yml
       # optional - prefix to output defined in config
         dir: docs
       # optional - schematic file
-        schema: '*.sch'
+        schema: 'kicad/bottom/*.sch'
       # optional - PCB design file
-        board: '*.kicad_pcb'
+        board: 'kicad/bottom/*.kicad_pcb'
       # optional - verbose output info
         verbose: 0
     - name: upload results
