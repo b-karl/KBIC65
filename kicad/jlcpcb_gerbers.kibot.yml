@@ -27,12 +27,6 @@ outputs:
       # are slightly different.
       - F.Cu
       - B.Cu
-      - In1.Cu
-      - In2.Cu
-      - In3.Cu
-      - In4.Cu
-      - In5.Cu
-      - In6.Cu
       - F.SilkS
       - B.SilkS
       - F.Mask
@@ -49,4 +43,3 @@ outputs:
       npth_id: '-NPTH'
       metric_units: false
       output: "%f%i.%x"
-
