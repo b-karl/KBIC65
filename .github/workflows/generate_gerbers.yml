@@ -15,8 +15,6 @@ on:
         description: 'Workflow run name'
         required: false
         default: 'Manual test run'
-env:
-  CI: true
   
 jobs:
   bottom_plate:
@@ -25,17 +23,31 @@ jobs:
     - uses: actions/checkout@v2
     - uses: nerdyscout/kicad-exports@v2.3.1
       with:
-      # Required - kibot config file
         config: kicad/jlcpcb_gerbers.kibot.yml
-      # optional - prefix to output defined in config
         dir: bottom_plate
-      # optional - PCB design file
+        schema: 'kicad/bottom/*.sch'
         board: 'kicad/bottom/*.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
         name: bottom_plate
         path: bottom_plate
+
+  top_plate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nerdyscout/kicad-exports@v2.3.1
+      with:
+        config: kicad/jlcpcb_gerbers.kibot.yml
+        dir: top_plate
+        schema: 'kicad/plate/*.sch'
+        board: 'kicad/plate/*.kicad_pcb'
+    - name: upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: top_plate
+        path: top_plate
         
   pcb:
     runs-on: ubuntu-latest
@@ -43,16 +55,10 @@ jobs:
     - uses: actions/checkout@v2
     - uses: nerdyscout/kicad-exports@v2.3.1
       with:
-      # Required - kibot config file
         config: kicad/jlcpcb_gerbers.kibot.yml
-      # optional - prefix to output defined in config
         dir: pcb
-      # optional - schematic file
         schema: 'kicad/pcb/*.sch'
-      # optional - PCB design file
         board: 'kicad/pcb/*.kicad_pcb'
-      # optional - verbose output info
-        verbose: 0
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
