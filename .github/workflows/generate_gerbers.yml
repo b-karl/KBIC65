@@ -5,10 +5,14 @@ on:
     paths:
     - '**.sch'
     - '**.kicad_pcb'
+    - '.github/**.yml'
+    - '**.kibot.yml'
   pull_request:
     paths:
-      - '**.sch'
-      - '**.kicad_pcb'
+    - '**.sch'
+    - '**.kicad_pcb'
+    - '.github/**.yml'
+    - '**.kibot.yml'
   workflow_dispatch:
     inputs:
       name:
